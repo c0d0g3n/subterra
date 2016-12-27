@@ -1,0 +1,855 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"@bp0-co",
+				"@bp0-content-padding-horizontal\t(variables.inc.less)"
+			],
+			[
+				"@bp0-bl",
+				"@bp0-block-padding-horizontal"
+			],
+			[
+				"@bp0-block",
+				"@bp0-block-padding-vertical"
+			],
+			[
+				"@content",
+				"@content-background-color-dark"
+			],
+			[
+				"@inv",
+				"@inversed-font-color"
+			],
+			[
+				"@inversed",
+				"@inversed-border-color"
+			],
+			[
+				"@bp0-b",
+				"@bp0-block-padding-horizontal"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"@bp0-n",
+				"@bp0-nav-font-size\t(variables.inc.less)"
+			],
+			[
+				"@contetn",
+				"@content-background-color\t(variables.inc.less)"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"@bp0-he",
+				"@bp0-header-line-height\t(header.inc.less)"
+			],
+			[
+				"@bp0-hea",
+				"@bp0-header-font-size\t(header.inc.less)"
+			],
+			[
+				"@bp0",
+				"@bp0-block-padding-horizontal\t(variables.inc.less)"
+			],
+			[
+				"@inverse",
+				"@inversed-font-color\t(header.inc.less)"
+			],
+			[
+				"@inver",
+				"@inversed-background-color\t(variables.inc.less)"
+			],
+			[
+				"@cont",
+				"@content-background-color\t(variables.inc.less)"
+			],
+			[
+				"main",
+				"main-row\t(page.html.eco)"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"over",
+				"overflow-x"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"bp15-nav-bor",
+				"bp15-nav-border-size"
+			],
+			[
+				"ove",
+				"overflow"
+			],
+			[
+				"bp0-footer",
+				"bp0-footer-text-size"
+			],
+			[
+				"bp0-nav",
+				"bp0-nav-text-size"
+			],
+			[
+				"bac",
+				"background-clip"
+			],
+			[
+				"f",
+				"float"
+			],
+			[
+				"bp0-text",
+				"bp0-text-padding-vertical"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"lis",
+				"list-style-type"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/layouts/page.html.eco",
+			"settings":
+			{
+				"buffer_size": 2659,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "docpad.coffee",
+			"settings":
+			{
+				"buffer_size": 1275,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/render/assets/css/screen.css.less",
+			"settings":
+			{
+				"buffer_size": 195,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/render/assets/css/variables.inc.less",
+			"settings":
+			{
+				"buffer_size": 1944,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/render/assets/css/nav.inc.less",
+			"settings":
+			{
+				"buffer_size": 898,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/render/assets/css/content.inc.less",
+			"settings":
+			{
+				"buffer_size": 139,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/render/assets/css/header.inc.less",
+			"settings":
+			{
+				"buffer_size": 1421,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/render/assets/js/main.js.coffee",
+			"settings":
+			{
+				"buffer_size": 912,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/render/assets/css/under-fold.inc.less",
+			"settings":
+			{
+				"buffer_size": 72,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/render/assets/css/above-fold.inc.less",
+			"settings":
+			{
+				"buffer_size": 65,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/render/assets/css/main.inc.less",
+			"settings":
+			{
+				"buffer_size": 240,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 372.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/bruno/Bureaublad/dev/stellar/2",
+		"/home/bruno/Bureaublad/dev/stellar/2/src",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/layouts",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/render",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/render/assets",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/render/assets/css",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/render/assets/js",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/static",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/static/assets"
+	],
+	"file_history":
+	[
+		"/home/bruno/Bureaublad/dev/stellar/2/src/render/assets/js/main.js.coffee",
+		"/home/bruno/Bureaublad/dev/stellar/2/todo.md",
+		"/home/bruno/Bureaublad/stellar/src/render/assets/css/main.inc.less",
+		"/home/bruno/Bureaublad/stellar/src/render/assets/css/header.inc.less",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/render/assets/css/above-fold.inc.less",
+		"/home/bruno/Bureaublad/dev/stellar/2/package.json",
+		"/home/bruno/Bureaublad/dev/sources/docs/configure_sublime_text",
+		"/home/bruno/Bureaublad/dev/stellar/2/docpad.coffee",
+		"/home/bruno/Bureaublad/dev/stellar/2/gulpfile.coffee",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/render/assets/css/screen.css",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/render/assets/css/variables.inc.less",
+		"/home/bruno/Bureaublad/dev/stellar/2/stellar_2.sublime-project",
+		"/home/bruno/Bureaublad/dev/stellar/main/src/render/index.html.md",
+		"/home/bruno/Bureaublad/dev/stellar/main/src/render/assets/css/content.inc.less",
+		"/home/bruno/Bureaublad/dev/stellar/main/out/assets/css/screen.css",
+		"/home/bruno/Bureaublad/dev/stellar/main/src/layouts/page.html.eco",
+		"/home/bruno/Bureaublad/dev/stellar/main/src/render/assets/css/nav.inc.less",
+		"/home/bruno/Bureaublad/dev/stellar/main/src/render/assets/css/main.inc.less",
+		"/home/bruno/Bureaublad/dev/stellar/main/src/render/assets/css/variables.inc.less",
+		"/home/bruno/Bureaublad/dev/stellar/main/src/render/assets/js/main.js.coffee",
+		"/home/bruno/Bureaublad/dev/stellar/main/src/render/gear/index.html.md",
+		"/home/bruno/Bureaublad/dev/stellar/main/src/render/portfolio/index.html",
+		"/home/bruno/Bureaublad/dev/stellar/main/out/assets/css/normalize.css",
+		"/home/bruno/Bureaublad/dev/stellar/main/src/render/about/index.html.md",
+		"/home/bruno/Bureaublad/dev/stellar/main/docpad.coffee",
+		"/home/bruno/Bureaublad/stellar/docpad.coffee",
+		"/home/bruno/Bureaublad/dev/stellar/main/src/render/assets/css/footer.inc.less",
+		"/home/bruno/Bureaublad/dev/stellar/main/src/render/assets/css/header.inc.less",
+		"/home/bruno/Bureaublad/build.md",
+		"/home/bruno/Bureaublad/dev/stellar/main/src/render/assets/css/under-fold.inc.less",
+		"/home/bruno/Bureaublad/dev/stellar/main/src/render/assets/css/above-fold.inc.less",
+		"/home/bruno/Bureaublad/dev/stellar/main/src/static/assets/css/font-awesome.css",
+		"/home/bruno/Bureaublad/dev/stellar/main/gulpfile.coffee",
+		"/home/bruno/Bureaublad/dev/stellar/main/out/dist/css/screen.css",
+		"/home/bruno/Bureaublad/dev/stellar/main/out/dist/css/screen.min.css",
+		"/home/bruno/Bureaublad/dev/stellar/main/src/render/test-markdown-elements/index.html.md",
+		"/home/bruno/Bureaublad/crosshair/dev/less/includes/variables.less",
+		"/home/bruno/Bureaublad/crosshair/dev/less/includes/main.less",
+		"/home/bruno/Bureaublad/dev/stellar/main/src/render/assets/css/screen.css.less",
+		"/home/bruno/Bureaublad/crosshair/default.hbs",
+		"/home/bruno/Bureaublad/crosshair/index.hbs",
+		"/home/bruno/Bureaublad/dev/stellar/main/src/render/assets/css/background.inc.less",
+		"/home/bruno/Bureaublad/dev/sources/font-awesome-4.7.0/less/font-awesome.less",
+		"/home/bruno/Bureaublad/dev/sources/font-awesome-4.7.0/less/core.less",
+		"/home/bruno/Bureaublad/dev/stellar/main/out/index.html",
+		"/home/bruno/Bureaublad/dev/stellar/main/out/about/index.html",
+		"/home/bruno/Bureaublad/dev/stellar/main/src/render/assets/index.html",
+		"/home/bruno/Bureaublad/dev/stellar/main/src/render/css/main.inc.less",
+		"/home/bruno/Bureaublad/dev/stellar/main/src/render/css/screen.css.less",
+		"/home/bruno/Bureaublad/dev/stellar/main/src/render/css/variables.inc.less",
+		"/home/bruno/Bureaublad/dev/stellar/main/src/render/css/above-fold.inc.less",
+		"/home/bruno/Bureaublad/dev/stellar/main/src/render/css/under-fold.inc.less",
+		"/home/bruno/Bureaublad/dev/stellar/main/src/render/css/background.inc.less",
+		"/home/bruno/Bureaublad/dev/stellar_prototype/http/prototype/styles.css",
+		"/home/bruno/Bureaublad/dev/stellar/main/package.json",
+		"/home/bruno/Bureaublad/crosshair/gulpfile.js",
+		"/home/bruno/Bureaublad/dev/stellar/main/src/render/css/normalize.inc.css",
+		"/home/bruno/Bureaublad/dev/stellar/main/out/dist/js/stellar.min.js",
+		"/home/bruno/Bureaublad/dev/stellar/main/out/js/stellar.min.js",
+		"/home/bruno/Bureaublad/dev/stellar/main/out/js/main.js",
+		"/home/bruno/Bureaublad/dev/stellar/main/out/js/stellar.js",
+		"/home/bruno/Bureaublad/dev/stellar/main/README.md",
+		"/home/bruno/Bureaublad/dev/stellar/main/.gitignore",
+		"/home/bruno/Bureaublad/dev/stellar/main/src/render/js/main.js.coffee",
+		"/home/bruno/Bureaublad/dev/stellar/main/out/css/screen.css",
+		"/home/bruno/Bureaublad/dev/stellar/main/out/css/screen.min.css",
+		"/home/bruno/Bureaublad/dev/stellar/main/src/render/js/test.js.coffee",
+		"/home/bruno/Bureaublad/dev/stellar/main/src/render/js/stellar.js.coffee",
+		"/home/bruno/Bureaublad/dev/stellar/main/out/css/variables.less",
+		"/home/bruno/Bureaublad/dev/stellar/main/src/render/css/variables.less",
+		"/home/bruno/Bureaublad/dev/stellar/main/src/render/index.html.eco",
+		"/home/bruno/Bureaublad/dev/stellar/main./package.json",
+		"/home/bruno/Bureaublad/stellar/package.json",
+		"/home/bruno/Bureaublad/stellar/documentation/documentatie.md",
+		"/home/bruno/Bureaublad/dev/stellar/main/stellar.sublime-project",
+		"/home/bruno/Bureaublad/dev/stellar/package.json",
+		"/home/bruno/Bureaublad/dev/stellar/stellar.sublime-project",
+		"/home/bruno/Bureaublad/dev/crosshair/http/.git/COMMIT_EDITMSG",
+		"/home/bruno/Bureaublad/dev/crosshair/http/.gitignore",
+		"/home/bruno/Bureaublad/dev/crosshair/http/assets/css/screen.css",
+		"/home/bruno/Bureaublad/dev/crosshair/http/dev/less/screen.less",
+		"/home/bruno/Bureaublad/dev/crosshair/http/dev/less/includes/header.less",
+		"/home/bruno/Bureaublad/dev/crosshair/http/dev/less/includes/variables.less",
+		"/home/bruno/Bureaublad/dev/crosshair/http/screen.less",
+		"/media/bruno/B8EE-0C1D/dev/swipe_1/dev/less/swipe.less",
+		"/home/bruno/Bureaublad/dev/crosshair/http/default.hbs",
+		"/home/bruno/Bureaublad/dev/crosshair/http/.bowerrc",
+		"/home/bruno/Bureaublad/dev/crosshair/http/bower.json",
+		"/home/bruno/Bureaublad/dev/crosshair/http/index.hbs",
+		"/media/bruno/C8DC0495DC047FC4/Users/roos/Desktop/Bruno/dev/swipe_template/http/swipe_1/content/themes/swipe/default.hbs",
+		"/home/bruno/Bureaublad/dev/crosshair/http/package.json",
+		"/home/bruno/Bureaublad/dev/crosshair/http/gulpfile.js",
+		"/home/bruno/Bureaublad/dev/crosshair/http/node_modules/ghost/core/server/data/schema/default-settings.json",
+		"/home/bruno/Bureaublad/dev/crosshair/http/default-settings.json",
+		"/media/bruno/C8DC0495DC047FC4/Users/roos/Desktop/Bruno/dev/swipe_template/http/swipe_2/node_modules/ghost/core/server/data/schema/default-settings.json",
+		"/media/bruno/C8DC0495DC047FC4/Users/roos/Desktop/Bruno/dev/swipe_template/http/swipe_2/node_modules/ghost/core/server/config/url.js",
+		"/media/bruno/C8DC0495DC047FC4/Users/roos/Desktop/Bruno/dev/swipe_template/http/swipe_2/node_modules/ghost/core/server/config/index.js",
+		"/media/bruno/C8DC0495DC047FC4/Users/roos/Desktop/Bruno/dev/swipe_template/http/swipe_2/node_modules/ghost/core/server/ghost-server.js",
+		"/media/bruno/C8DC0495DC047FC4/Users/roos/Desktop/Bruno/dev/swipe_template/http/swipe_2/node_modules/ghost/core/server/index.js",
+		"/media/bruno/C8DC0495DC047FC4/Users/roos/Desktop/Bruno/dev/swipe_template/http/swipe_2/node_modules/ghost/core/shared/ghost-url.js",
+		"/media/bruno/C8DC0495DC047FC4/Users/roos/Desktop/Bruno/dev/swipe_template/http/swipe_2/node_modules/ghost/index.js",
+		"/media/bruno/C8DC0495DC047FC4/Users/roos/Desktop/Bruno/dev/swipe_template/http/swipe_2/node_modules/ghost/config.example.js",
+		"/home/bruno/Bureaublad/dev/crosshair/http/dev/ghost-dev-config.js",
+		"/home/bruno/Bureaublad/dev/crosshair/http/crosshair.sublime-project",
+		"/home/bruno/Bureaublad/dev/crosshair/http/old_docs_swipe.md",
+		"/home/bruno/Bureaublad/dev/crosshair/http/docs_old.md"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"show",
+			"class",
+			";\n",
+			"color",
+			"url",
+			"sicing elit, sed do eiusmod te",
+			"sourcemaps",
+			"runsequence",
+			"browsersync",
+			"task",
+			"callback(",
+			"casper"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"browserSync"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 7,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/layouts/page.html.eco",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2659,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1238,
+								1238
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/eco/Syntaxes/HTML (ECO).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 225.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "docpad.coffee",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1275,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								741,
+								741
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Better CoffeeScript/CoffeeScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/render/assets/css/screen.css.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 195,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								195,
+								195
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/render/assets/css/variables.inc.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1944,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1944,
+								1944
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 450.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/render/assets/css/nav.inc.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 898,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								115,
+								115
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 135.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/render/assets/css/content.inc.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 139,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								134,
+								134
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/render/assets/css/header.inc.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1421,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								735,
+								735
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/render/assets/js/main.js.coffee",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 912,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								821,
+								821
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Better CoffeeScript/CoffeeScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 270.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/render/assets/css/under-fold.inc.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 72,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								53,
+								53
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "src/render/assets/css/above-fold.inc.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 65,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								63,
+								63
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "src/render/assets/css/main.inc.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 240,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								238,
+								238
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "stellar_2.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 230.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

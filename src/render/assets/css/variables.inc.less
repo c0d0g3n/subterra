@@ -1,0 +1,99 @@
+
+
+//            ######   ######## ##    ## ######## ########     ###    ##       
+//           ##    ##  ##       ###   ## ##       ##     ##   ## ##   ##       
+//           ##        ##       ####  ## ##       ##     ##  ##   ##  ##       
+//           ##   #### ######   ## ## ## ######   ########  ##     ## ##       
+//           ##    ##  ##       ##  #### ##       ##   ##   ######### ##       
+//           ##    ##  ##       ##   ### ##       ##    ##  ##     ## ##       
+//            ######   ######## ##    ## ######## ##     ## ##     ## ######## 
+
+
+// background colors
+@content-background-color: #eee;										// for (main) content blocks
+@content-background-color-dark: #ccc;
+@inverted-background-color: lighten( @inverted-border-color, 10% );		// for emphasized blocks
+
+// border colors
+@content-border-color: darken( @content-background-color, 10% );
+@inverted-border-color: black;
+
+// font colors
+@font-color: @inverted-background-color;
+@inverted-font-color: @content-background-color;
+@inverted-font-color-dark: @content-background-color-dark;
+
+// inbetween
+@between-color: lighten( @inverted-border-color, 50% );
+
+
+
+
+
+//             #####   
+//            ##   ##  
+//           ##     ## 
+//           ##     ## 
+//           ##     ## 
+//            ##   ##  
+//             #####   
+
+
+// font
+@bp0-font-size: 16px;
+@bp0-line-height: 1.6em;
+
+// p
+@bp0-p-padding-vertical: 1.5em;
+@bp0-p-padding-horizontal: 0;
+
+// h1
+@bp0-h1-font-size: 2em;
+
+// header
+@bp0-header-height: 200px;
+@bp0-header-font-size: 2.3em;
+@bp0-header-line-height: 1em;
+
+// block
+@bp0-block-padding-horizontal: 1.2em;
+@bp0-block-padding-vertical: 1em;
+@bp0-block-margin-horizontal: 0.8em;			// usually implemented as parent's element padding for convenience
+@bp0-block-margin-vertical: 1.2em;			// usually implemented as parent's element padding for convenience
+
+// nav
+@bp0-nav-font-size: 1em;
+@bp0-nav-line-height: 1em;
+
+// content
+@bp0-content-padding-vertical: @bp0-block-padding-vertical;
+@bp0-content-padding-horizontal: @bp0-block-margin-horizontal;
+
+// divider
+@bp0-divider-size: 5px;
+@bp0-divider-type: solid;
+@bp0-divider-color: @inverted-background-color;
+
+// lists
+@bp0-list-type-width: 2em;
+@bp0-ol-nested-width: 3em;
+
+
+
+
+
+//           ##     ## 
+//           ##     ## 
+//           ##     ## 
+//           ######### 
+//           ##     ## 
+//           ##     ## 
+//           ##     ## 
+
+
+// definition
+@bph-height: 300px;
+@bph-rule: ~'(min-height: @{bph-height})';
+
+// header
+@bph-header-height: 300px;
