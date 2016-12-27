@@ -1,5 +1,9 @@
 # TODO
 
+## improve...
+
+### content header spacing (turn into inverted block?)
+
 ## nice to have
 
 ### Advanced nav hover effect
@@ -9,3 +13,9 @@
 
 
 ### Rotate nav toggle on click
+
+### smooth scroll (js)
+
+### SoundCloud (or comparable) controls right of #nav-page-title
+
+### large breakpoint: sticky navigation

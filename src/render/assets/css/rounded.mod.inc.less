@@ -1,0 +1,9 @@
+@import (reference) 'variables.inc.less';
+
+@media @bp10-rule {
+	@rounded-size: ( 2 * @bp10-block-padding-horizontal + @bp10-nav-font-size ) / 2;
+
+	#page-nav a, #page-header-title a, #page-content {
+		border-radius: @rounded-size;
+	}
+}

@@ -107,3 +107,47 @@
 		height: @bph-header-height;
 	}
 }
+
+
+
+
+
+//              ##     #####   
+//            ####    ##   ##  
+//              ##   ##     ## 
+//              ##   ##     ## 
+//              ##   ##     ## 
+//              ##    ##   ##  
+//            ######   #####   
+
+
+@media @bp10-rule {
+	#page-background {
+		height: @bp10-header-height;
+	}
+
+	#header-row {
+		width: @bp10-row-width;
+		margin: 0 auto;
+	}
+
+	#page-header {
+		width: @bp10-row-width;
+		padding: 0 @bp10-block-margin-horizontal @bp10-block-margin-vertical 0;
+
+		a {
+			padding: @bp10-block-padding-vertical @bp10-block-padding-horizontal;
+		}
+	}
+
+	#page-header-title {
+		h1 {
+			font-size: @bp10-header-font-size;
+			line-height: @bp10-header-line-height;
+		}
+	}
+
+	#page-nav-toggle {
+		display: none;
+	}
+}

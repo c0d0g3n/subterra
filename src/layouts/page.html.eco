@@ -21,17 +21,19 @@
 	<div id="page">
 		<div id="page-background"></div>
 		<div id="above-fold">
-			<header id="page-header">
-				<div id="page-header-title">
-					<a href="<%= @site.url %>"><h1><%= @site.title %></h1></a>
-				</div>
-				<!-- <p class="tag-line"><%- @site.tagLine %></p> -->
-				<div id="page-nav-toggle">
-					<a href="#toggle" title="toggle navigation">
-						<span class="fa fa-bars"></span>
-					</a>
-				</div>
-			</header>
+			<div id="header-row">
+				<header id="page-header">
+					<div id="page-header-title">
+						<a href="<%= @site.url %>"><h1><%= @site.title %></h1></a>
+					</div>
+					<!-- <p class="tag-line"><%- @site.tagLine %></p> -->
+					<div id="page-nav-toggle">
+						<a href="#toggle" title="toggle navigation">
+							<span class="fa fa-bars"></span>
+						</a>
+					</div>
+				</header>
+			</div>
 		</div>
 		<div id="under-fold">
 			<div id="main-row">

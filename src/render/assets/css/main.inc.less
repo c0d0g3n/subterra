@@ -21,7 +21,31 @@ img {
 h1 {
 	font-size: @bp0-h1-font-size;
 	line-height: 1em;
-	margin: @bp0-p-padding-vertical / @bp0-h1-font-size @bp0-p-padding-horizontal / @bp0-h1-font-size;
+	margin:
+		@bp0-p-padding-vertical / @bp0-h1-font-size * 1.5
+		@bp0-p-padding-horizontal / @bp0-h1-font-size
+		@bp0-p-padding-vertical / @bp0-h1-font-size
+		@bp0-p-padding-horizontal / @bp0-h3-font-size;
+}
+
+h2 {
+	font-size: @bp0-h2-font-size;
+	line-height: 1em;
+	margin:
+		@bp0-p-padding-vertical / @bp0-h2-font-size * 1.5
+		@bp0-p-padding-horizontal / @bp0-h2-font-size
+		@bp0-p-padding-vertical / @bp0-h1-font-size
+		@bp0-p-padding-horizontal / @bp0-h3-font-size;
+}
+
+h3 {
+	font-size: @bp0-h3-font-size;
+	line-height: 1em;
+	margin:
+		@bp0-p-padding-vertical / @bp0-h3-font-size * 1.5
+		@bp0-p-padding-horizontal / @bp0-h3-font-size
+		@bp0-p-padding-vertical / @bp0-h1-font-size
+		@bp0-p-padding-horizontal / @bp0-h3-font-size;
 }
 
 p {
@@ -77,5 +101,26 @@ ol {
 			counter-increment: li;
 			content: counters(li,".") ".";
 		}
+	}
+}
+
+
+
+
+
+//              ##     #####   
+//            ####    ##   ##  
+//              ##   ##     ## 
+//              ##   ##     ## 
+//              ##   ##     ## 
+//              ##    ##   ##  
+//            ######   #####   
+
+
+@media @bp10-rule {
+	h1:first-child {
+		margin-top: ( @bp10-block-padding-horizontal - @bp10-block-padding-vertical ) / @bp10-h1-font-size; // allign with button
+
+		font-size: @bp10-h1-font-size;
 	}
 }

@@ -50,6 +50,12 @@
 // h1
 @bp0-h1-font-size: 2em;
 
+// h2
+@bp0-h2-font-size: 1.5em;
+
+// h3
+@bp0-h3-font-size: 1.1em;
+
 // header
 @bp0-header-height: 200px;
 @bp0-header-font-size: 2.3em;
@@ -97,3 +103,43 @@
 
 // header
 @bph-header-height: 300px;
+
+
+
+
+
+//              ##     #####   
+//            ####    ##   ##  
+//              ##   ##     ## 
+//              ##   ##     ## 
+//              ##   ##     ## 
+//              ##    ##   ##  
+//            ######   #####   
+
+
+// definition
+@bp10-width: 700px;
+@bp10-rule: ~'(min-width: @{bp10-width})';
+
+// header
+@bp10-header-height: 100vh;
+@bp10-header-font-size: 4em;
+@bp10-header-line-height: 1em;
+
+// h1
+@bp10-h1-font-size: 2em;
+
+// row
+@bp10-row-width: 80%;
+
+// nav
+@bp10-nav-width: @bp10-block-margin-horizontal + 2 * @bp10-block-padding-horizontal + @bp10-nav-font-size;
+@bp10-nav-font-size: 2em;
+@bp10-nav-line-height: ( ( @bp10-block-padding-horizontal - @bp10-block-padding-vertical ) * 2 + @bp10-nav-font-size ) / @bp10-nav-font-size; // correct square (yet allow other blocks to have different x and y padding)
+
+// block
+@bp10-block-padding-horizontal: 1.5em;
+@bp10-block-padding-vertical: 1em;
+@bp10-block-margin-horizontal: 2em;
+@bp10-block-margin-vertical: 2em;
+
