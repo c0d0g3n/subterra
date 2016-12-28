@@ -1,10 +1,36 @@
 #page-content {
 	padding: @bp0-content-padding-vertical @bp0-content-padding-horizontal;
 
-	// // temp?
-	// h1:first-child {
-	// 	margin-top: 0;
-	// }
+	h1:first-child {
+		margin-top: ( @bp0-p-padding-vertical - @bp0-content-padding-vertical ) / @bp0-h1-font-size + 0.1;
+	}
+
+	p:last-child {
+		margin-bottom: 0;
+	}
+}
+
+
+
+
+
+//           ######## 
+//           ##       
+//           ##       
+//           #######  
+//                 ## 
+//           ##    ## 
+//            ######  
+
+
+@media @bp5-rule {
+	#page-content {
+		padding: @bp5-content-padding-vertical @bp5-content-padding-horizontal;
+
+		h1:first-child {
+			margin-top: ( @bp5-p-padding-vertical - @bp5-content-padding-vertical ) / @bp5-h1-font-size + 0.1;
+		}
+	}
 }
 
 
@@ -25,5 +51,15 @@
 		background: @content-background-color;
 		margin-left: @bp10-nav-width;
 		padding: @bp10-block-padding-vertical @bp10-block-padding-horizontal;
+
+		h1:first-child {
+			margin-top: ( @bp10-block-padding-horizontal - @bp10-block-padding-vertical ) / @bp10-h1-font-size; // allign with button
+
+			font-size: @bp10-h1-font-size;
+		}
+
+		p:last-child {
+			margin-bottom: ( @bp10-block-padding-horizontal - @bp10-block-padding-vertical ) / @bp10-font-size; // allign with button
+		}
 	}
 }

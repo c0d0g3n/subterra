@@ -1,0 +1,23 @@
+@import (reference) 'variables.inc.less';
+
+// remove fold border
+#under-fold {
+	border: none;
+}
+
+// inverted content title
+#page-content {
+	h1 {
+		margin:
+			-@bp0-content-padding-vertical / @bp0-h1-font-size
+			-@bp0-content-padding-horizontal / @bp0-h1-font-size
+			0
+			-@bp0-content-padding-horizontal / @bp0-h1-font-size;
+		padding:
+			@bp0-content-padding-vertical / @bp0-h1-font-size
+			@bp0-content-padding-horizontal / @bp0-h1-font-size;
+		background: @inverted-background-color;
+
+		color: @inverted-font-color;
+	}
+}

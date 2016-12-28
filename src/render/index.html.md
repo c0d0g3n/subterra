@@ -1,6 +1,7 @@
 ---
 layout: 'page'
 title: 'Welcome'
+isHome: true
 inMenu: true
 menuIcon: 'home'
 tooltip: 'Homepage'

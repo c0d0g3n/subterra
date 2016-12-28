@@ -61,6 +61,14 @@
 @bp0-header-font-size: 2.3em;
 @bp0-header-line-height: 1em;
 
+// footer
+@bp0-footer-font-size: 0.8em;
+@bp0-footer-line-height: 1em;
+
+// theme footer
+@bp0-theme-footer-font-size: 0.6em;
+@bp0-theme-footer-line-height: 1em;
+
 // block
 @bp0-block-padding-horizontal: 1.2em;
 @bp0-block-padding-vertical: 1em;
@@ -76,7 +84,7 @@
 @bp0-content-padding-horizontal: @bp0-block-margin-horizontal;
 
 // divider
-@bp0-divider-size: 5px;
+@bp0-divider-size: 0.5em;
 @bp0-divider-type: solid;
 @bp0-divider-color: @inverted-background-color;
 
@@ -98,12 +106,68 @@
 
 
 // definition
-@bph-height: 300px;
+@bph-height: 350px;
 @bph-rule: ~'(min-height: @{bph-height})';
 
 // header
 @bph-header-height: 300px;
 
+
+
+
+
+//           ######## 
+//           ##       
+//           ##       
+//           #######  
+//                 ## 
+//           ##    ## 
+//            ######  
+
+
+// definition
+	// increase font size (?) and block padding
+@bp5-width: 500px;
+@bp5-rule: ~'(min-width: @{bp5-width})';
+
+// font
+@bp5-font-size: 17px;
+@bp5-line-height: 1.5em;
+
+// p
+@bp5-p-padding-vertical: @bp0-p-padding-vertical;
+@bp5-p-padding-horizontal: @bp0-p-padding-horizontal;
+
+// h1
+@bp5-h1-font-size: @bp0-h1-font-size;
+
+// nav
+@bp5-nav-font-size: 1em;
+@bp5-nav-line-height: 1em;
+
+// block
+@bp5-block-padding-horizontal: @bp0-block-padding-horizontal;
+@bp5-block-padding-vertical: @bp0-block-padding-vertical;
+@bp5-block-margin-horizontal: @bp0-block-margin-horizontal;
+@bp5-block-margin-vertical: @bp0-block-margin-vertical;	
+
+// content
+@bp5-content-padding-vertical: @bp5-block-padding-vertical;
+@bp5-content-padding-horizontal: @bp5-block-margin-horizontal + @bp5-block-padding-horizontal;
+
+// header
+@bp5-header-font-size: @bp0-header-font-size;
+
+// footer
+@bp5-footer-font-size: @bp0-footer-font-size;
+@bp5-footer-line-height: @bp0-footer-line-height;
+
+// theme footer
+@bp5-theme-footer-font-size: @bp0-theme-footer-font-size;
+@bp5-theme-footer-line-height: @bp0-theme-footer-line-height;
+
+// divider
+@bp5-divider-size: @bp0-divider-size;
 
 
 
@@ -126,11 +190,20 @@
 @bp10-header-font-size: 4em;
 @bp10-header-line-height: 1em;
 
+// footer
+@bp10-footer-font-size: @bp0-footer-font-size;
+@bp10-footer-line-height: @bp0-footer-line-height;
+
+// theme footer
+@bp10-theme-footer-font-size: @bp0-theme-footer-font-size;
+@bp10-theme-footer-line-height: @bp0-theme-footer-line-height;
+
 // h1
 @bp10-h1-font-size: 2em;
 
 // row
-@bp10-row-width: 80%;
+// @bp10-row-width: 80%;
+@bp10-row-margin-horizontal: @bp10-block-margin-horizontal;
 
 // nav
 @bp10-nav-width: @bp10-block-margin-horizontal + 2 * @bp10-block-padding-horizontal + @bp10-nav-font-size;
@@ -142,4 +215,11 @@
 @bp10-block-padding-vertical: 1em;
 @bp10-block-margin-horizontal: 2em;
 @bp10-block-margin-vertical: 2em;
+
+// font
+@bp10-font-size: 16px;
+@bp10-line-height: 1.6em;
+
+// divider
+@bp10-divider-size: @bp0-divider-size;
 

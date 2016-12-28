@@ -28,6 +28,10 @@ docpadConfig = {
 			else
 				[@site.url + '/dist/js/stellar.min.js']
 
+		bodyClass: ->
+			if @document.isHome is true
+				'home'
+
 	plugins:
 		gulp:
 			writeAfter: false

@@ -16,7 +16,7 @@
 	<%- @getBlock('meta').toHTML() %>
 	<%- @getBlock('styles').add(@getCss()).toHTML() %>
 </head>
-<body>
+<body class="<%= @bodyClass() %>">
 
 	<div id="page">
 		<div id="page-background"></div>
@@ -82,7 +82,7 @@
 				</nav>
 				<main id="page-content">
 					<article id="article-<%= @document.title.replace(/\s/g, '-').toLowerCase() %>">
-						<header class="content-header inversed">
+						<header class="content-header">
 							<h1><%- @document.title %></h1>
 						</header>
 						<%- @content %>
@@ -91,7 +91,11 @@
 			</div>
 			<footer id="page-footer">
 				<a id="scroll-to-top" href="#above-fold" title="Scroll back to top"><span class="fa fa-chevron-up" aria-hidden="true"></span></a>
-				<p>Copyright info</p>
+				<p class="copyright">
+					Copyright info
+				</p><p class="theme">
+					Stellar Theme by C0d0g3n
+				</p>
 			</footer>
 		</div>
 	</div>

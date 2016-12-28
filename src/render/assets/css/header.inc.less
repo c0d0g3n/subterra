@@ -70,14 +70,16 @@
 	float: right;
 
 	a {
+		padding-right: 0;
+
 		&:visited {
 
 		}
 
 		// no :hover, cleaner on mobile
-		&:active {
-			color: @font-color;
-		}
+		// &:active {
+		// 	color: @font-color;
+		// }
 	}
 
 	span {
@@ -112,6 +114,41 @@
 
 
 
+//           ######## 
+//           ##       
+//           ##       
+//           #######  
+//                 ## 
+//           ##    ## 
+//            ######  
+
+
+@media @bp5-rule {
+	#page-header {
+		padding:
+			@bp5-block-margin-vertical
+			@bp5-block-margin-horizontal;
+
+		a {
+			padding:
+				@bp5-block-padding-vertical
+				@bp5-block-padding-horizontal;
+		}
+	}
+
+	#page-header-title {
+		
+	}
+
+	#page-nav-toggle {
+		
+	}
+}
+
+
+
+
+
 //              ##     #####   
 //            ####    ##   ##  
 //              ##   ##     ## 
@@ -127,17 +164,26 @@
 	}
 
 	#header-row {
-		width: @bp10-row-width;
-		margin: 0 auto;
+		// width: @bp10-row-width;
+		margin: 0 @bp10-row-margin-horizontal;
 	}
 
 	#page-header {
-		width: @bp10-row-width;
-		padding: 0 @bp10-block-margin-horizontal @bp10-block-margin-vertical 0;
+		position: static;
+		// width: @bp10-row-width;
+		padding:
+			@bp10-block-margin-vertical			// normally 0
+			@bp10-block-margin-horizontal
+			@bp10-block-margin-vertical
+			0;
 
 		a {
 			padding: @bp10-block-padding-vertical @bp10-block-padding-horizontal;
 		}
+	}
+
+	.home #page-header {
+		position: absolute;
 	}
 
 	#page-header-title {
