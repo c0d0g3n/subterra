@@ -170,6 +170,7 @@
 
 	#page-header {
 		position: static;
+		width: auto;
 		// width: @bp10-row-width;
 		padding:
 			@bp10-block-margin-vertical			// normally 0
@@ -195,5 +196,25 @@
 
 	#page-nav-toggle {
 		display: none;
+	}
+}
+
+
+
+
+
+//            #######    #####   
+//           ##     ##  ##   ##  
+//                  ## ##     ## 
+//            #######  ##     ## 
+//           ##        ##     ## 
+//           ##         ##   ##  
+//           #########   #####   
+
+
+@media @bp20-rule {
+	#header-row {
+		width: @bp20-row-width;
+		margin: 0 auto;
 	}
 }

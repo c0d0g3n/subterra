@@ -7,6 +7,15 @@ menuIcon: 'home'
 tooltip: 'Homepage'
 ---
 
+row # | test
+--- | ---
+0 | abc
+1 | def
+
+test__test__test
+
+https://example.com
+
 Hieronder staan class-switches om met css te experimenteren.
 
 - <a onClick="addClass('square')">Vierkant thema</a>
@@ -32,5 +41,3 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-<a href="" id="test-link" style="display: none;">AAA</a>

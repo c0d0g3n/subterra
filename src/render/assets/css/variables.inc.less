@@ -26,6 +26,13 @@
 // inbetween
 @between-color: lighten( @inverted-border-color, 50% );
 
+// form / inputs
+@form-font-color: @inverted-font-color;
+@form-font-color-active: @font-color;
+@form-background-color: @inverted-background-color;
+@form-background-color-active: @content-background-color;
+@form-border-color: @inverted-background-color;
+
 
 
 
@@ -91,6 +98,16 @@
 // lists
 @bp0-list-type-width: 2em;
 @bp0-ol-nested-width: 3em;
+
+// form
+@bp0-form-font-size: @bp0-font-size;
+@bp0-form-line-height: 1em;
+@bp0-form-padding-horizontal: @bp0-block-padding-horizontal;
+@bp0-form-padding-vertical: @bp0-block-padding-vertical;
+@bp0-form-margin-horizontal: 0;
+@bp0-form-margin-vertical: @bp0-p-padding-vertical / 2;
+@bp0-form-border-size: 1em * 5px / @bp0-font-size;
+@bp0-form-border-type: solid;
 
 
 
@@ -217,9 +234,36 @@
 @bp10-block-margin-vertical: 2em;
 
 // font
-@bp10-font-size: 16px;
-@bp10-line-height: 1.6em;
+@bp10-font-size: @bp5-font-size;
+@bp10-line-height: @bp5-line-height;
+// @bp10-font-size: 16px;
+// @bp10-line-height: 1.5em;
 
 // divider
 @bp10-divider-size: @bp0-divider-size;
 
+// images
+@bp10-image-border-size: 1em * 7px / @bp10-font-size;
+@bp10-image-border-type: solid;
+@bp10-image-border-color: @inverted-background-color;
+@bp10-image-extension-horizontal: @bp10-image-border-size;
+
+
+
+
+
+//            #######    #####   
+//           ##     ##  ##   ##  
+//                  ## ##     ## 
+//            #######  ##     ## 
+//           ##        ##     ## 
+//           ##         ##   ##  
+//           #########   #####   
+
+
+// definition
+@bp20-width: @bp20-row-width + 2 * @bp10-row-margin-horizontal * @bp10-font-size; // wrong bp ?
+@bp20-rule: ~"(min-width: " (@bp20-width) ~")";
+
+// row
+@bp20-row-width: 800px;

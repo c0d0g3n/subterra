@@ -1,0 +1,29 @@
+form {
+	font-size: @bp0-form-font-size;
+	line-height: @bp0-form-line-height;
+	color: @form-font-color;
+}
+
+.form-row {
+	margin: @bp0-form-margin-vertical @bp0-form-margin-horizontal;
+
+	.label-col {
+		.visuallyhidden
+	}
+	.input-col {
+		input, textarea {
+			width: 100%;
+			border: @bp0-form-border-size @bp0-form-border-type @form-border-color;
+			background: @form-background-color;
+
+
+			&::placeholder {
+				color: blue;
+				opacity: 1;
+			}
+		}
+	}
+	.button-col {
+
+	}
+}

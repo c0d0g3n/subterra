@@ -1,5 +1,6 @@
 # DocPad Configuration File
 # http://docpad.org/docs/config
+customMarkdown = require './custom_markdown.coffee'
 
 # Define the DocPad Configuration
 docpadConfig = {
@@ -34,8 +35,14 @@ docpadConfig = {
 
 	plugins:
 		gulp:
-			writeAfter: false
-			generateAfter: ['cssmin', 'jsmin']
+			writeAfter: ['cssmin', 'jsmin']
+			generateAfter: false
+		marked:
+			markedOptions:
+				renderer: customMarkdown
+		livereload:
+			enabled: false
+		
 
 
 

@@ -24,7 +24,7 @@
 			<div id="header-row">
 				<header id="page-header">
 					<div id="page-header-title">
-						<a href="<%= @site.url %>"><h1><%= @site.title %></h1></a>
+						<a href="<%= @site.url %>" title="Homepage"><h1><%= @site.title %></h1></a>
 					</div>
 					<!-- <p class="tag-line"><%- @site.tagLine %></p> -->
 					<div id="page-nav-toggle">

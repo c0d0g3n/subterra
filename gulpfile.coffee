@@ -4,6 +4,7 @@ cssmin = 		require 'gulp-cssmin'
 jsmin = 		require 'gulp-jsmin'
 concat = 		require 'gulp-concat'
 rename = 		require 'gulp-rename'
+autoprefixer = 	require 'gulp-autoprefixer'
 
 # default task
 gulp.task 'default', [
@@ -11,8 +12,19 @@ gulp.task 'default', [
 	'jsmin'
 ]
 
+
+# csspre(fix) task
+gulp.task 'csspre', ->
+	gulp
+		.src 'out/assets/css/screen.css'
+		.pipe autoprefixer
+			browsers: ['last 2 versions', 'firefox >= 18'],
+			cascade: false
+		.pipe gulp.dest 'out/assets/css'
+
+
 # cssconcat task
-gulp.task 'cssconcat', ->
+gulp.task 'cssconcat', ['csspre'], ->
 	gulp
 		.src 'out/assets/css/*.css'
 		.pipe concat 'screen.css'

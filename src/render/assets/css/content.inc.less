@@ -1,12 +1,14 @@
 #page-content {
 	padding: @bp0-content-padding-vertical @bp0-content-padding-horizontal;
 
-	h1:first-child {
-		margin-top: ( @bp0-p-padding-vertical - @bp0-content-padding-vertical ) / @bp0-h1-font-size + 0.1;
-	}
+	article {
+		h1:first-child {
+			margin-top: ( @bp0-p-padding-vertical - @bp0-content-padding-vertical ) / @bp0-h1-font-size + 0.1;
+		}
 
-	p:last-child {
-		margin-bottom: 0;
+		p:last-child {
+			margin-bottom: @bp0-p-padding-vertical - @bp0-content-padding-vertical;
+		}
 	}
 }
 
@@ -27,8 +29,14 @@
 	#page-content {
 		padding: @bp5-content-padding-vertical @bp5-content-padding-horizontal;
 
-		h1:first-child {
-			margin-top: ( @bp5-p-padding-vertical - @bp5-content-padding-vertical ) / @bp5-h1-font-size + 0.1;
+		article {
+			h1:first-child {
+				margin-top: ( @bp5-p-padding-vertical - @bp5-content-padding-vertical ) / @bp5-h1-font-size + 0.1;
+			}
+
+			p:last-child {
+				margin-bottom: @bp5-p-padding-vertical - @bp5-content-padding-vertical;
+			}
 		}
 	}
 }
@@ -52,14 +60,16 @@
 		margin-left: @bp10-nav-width;
 		padding: @bp10-block-padding-vertical @bp10-block-padding-horizontal;
 
-		h1:first-child {
-			margin-top: ( @bp10-block-padding-horizontal - @bp10-block-padding-vertical ) / @bp10-h1-font-size; // allign with button
+		article {
+			h1:first-child {
+				margin-top: ( @bp10-block-padding-horizontal - @bp10-block-padding-vertical ) / @bp10-h1-font-size; // allign with button
 
-			font-size: @bp10-h1-font-size;
-		}
+				font-size: @bp10-h1-font-size;
+			}
 
-		p:last-child {
-			margin-bottom: ( @bp10-block-padding-horizontal - @bp10-block-padding-vertical ) / @bp10-font-size; // allign with button
+			p:last-child {
+				margin-bottom: @bp10-block-padding-horizontal - @bp10-block-padding-vertical; // allign with button
+			}
 		}
 	}
 }

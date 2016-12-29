@@ -1,3 +1,11 @@
+.visuallyhidden { // from html5 boilerplate
+	position: absolute; 
+	overflow: hidden; 
+	clip: rect(0 0 0 0); 
+	height: 1px; width: 1px; 
+	margin: -1px; padding: 0; border: 0; 
+}
+
 html {
 	box-sizing: border-box;
 }
@@ -15,7 +23,7 @@ body {
 }
 
 img {
-	max-width: 100%;
+	width: 100%;
 }
 
 h1 {
@@ -138,5 +146,18 @@ ol {
 
 
 @media @bp10-rule {
-	
+	body {
+		font-size: @bp10-font-size;
+		line-height: @bp10-line-height;
+	}
+
+	.img-wpr {
+		display: block;
+		margin: 0 ( 0 - @bp10-block-padding-horizontal - @bp10-image-extension-horizontal );
+		border: @bp10-image-border-size @bp10-image-border-type @bp10-image-border-color;
+
+		img {
+			display: block;
+		}
+	}
 }

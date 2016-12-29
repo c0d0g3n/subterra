@@ -4,8 +4,124 @@
 		"selected_items":
 		[
 			[
+				"@bp0-form-mar",
+				"@bp0-form-margin-horizontal\t(variables.inc.less)"
+			],
+			[
+				"@bp0-form-b",
+				"@bp0-form-border-type\t(variables.inc.less)"
+			],
+			[
+				"@inver",
+				"@inverted-font-color"
+			],
+			[
+				"@bp0-bloc",
+				"@bp0-block-padding-horizontal"
+			],
+			[
+				"@bp0-bl",
+				"@bp0-block-padding-horizontal"
+			],
+			[
+				"tex",
+				"textarea\t(index.html.md)"
+			],
+			[
+				"@bp10-ima",
+				"@bp10-image-border-size"
+			],
+			[
 				"@bp10-bl",
-				"@bp10-block-padding-horizontal\t(variables.inc.less)"
+				"@bp10-block-padding-vertical\t(variables.inc.less)"
+			],
+			[
+				"@bp0-the",
+				"@bp0-theme-footer-font-size\t(variables.inc.less)"
+			],
+			[
+				"@bp10-f",
+				"@bp10-footer-font-size"
+			],
+			[
+				"sc",
+				"scroll-to-top"
+			],
+			[
+				"@bp0-header",
+				"@bp0-header-font-size"
+			],
+			[
+				"@bp0-head",
+				"@bp0-header-font-size"
+			],
+			[
+				"@bp10-row",
+				"@bp10-row-margin-horizontal\t(variables.inc.less)"
+			],
+			[
+				"@bp10-ro",
+				"@bp10-row-margin-horizontal\t(variables.inc.less)"
+			],
+			[
+				"@bp0-p-",
+				"@bp0-p-padding-horizontal"
+			],
+			[
+				"@bp0-content",
+				"@bp0-content-padding-horizontal\t(variables.inc.less)"
+			],
+			[
+				"@bp0-hea",
+				"@bp0-header-font-size"
+			],
+			[
+				"@bp5-bl",
+				"@bp5-block-margin-horizontal"
+			],
+			[
+				"@bp5-block",
+				"@bp5-block-padding-horizontal"
+			],
+			[
+				"@bp0-b",
+				"@bp0-block-padding-vertical"
+			],
+			[
+				"@bp0-con",
+				"@bp0-content-padding-horizontal"
+			],
+			[
+				"@bp0-",
+				"@bp0-header-font-size\t(variables.inc.less)"
+			],
+			[
+				"@bp0-blo",
+				"@bp0-block-padding-horizontal"
+			],
+			[
+				"@inverted",
+				"@inverted-font-color\t(variables.inc.less)"
+			],
+			[
+				"@inverte",
+				"@inverted-background-color\t(variables.inc.less)"
+			],
+			[
+				"@conten",
+				"@content-background-color"
+			],
+			[
+				"@inve",
+				"@inverted-background-color"
+			],
+			[
+				"@bp10-blo",
+				"@bp10-block-padding-horizontal"
+			],
+			[
+				"@bp10-r",
+				"@bp10-row-width\t(variables.inc.less)"
 			],
 			[
 				"@bp10-block",
@@ -32,10 +148,6 @@
 				"@bp10-nav-line-height\t(variables.inc.less)"
 			],
 			[
-				"@bp10-blo",
-				"@bp10-block-margin-horizontal"
-			],
-			[
 				"@bp10-bloc",
 				"@bp10-block-margin-vertical\t(variables.inc.less)"
 			],
@@ -46,10 +158,6 @@
 			[
 				"lin",
 				"line-height"
-			],
-			[
-				"@bp10-r",
-				"@bp10-row-width"
 			],
 			[
 				"page-hea",
@@ -96,20 +204,12 @@
 				"@bp0-h1-font-size"
 			],
 			[
-				"@bp0-p-",
-				"@bp0-p-padding-horizontal\t(variables.inc.less)"
-			],
-			[
 				"@bp0-nav",
 				"@bp0-nav-font-size"
 			],
 			[
 				"@bp0-he",
 				"@bp0-header-font-size"
-			],
-			[
-				"@bp0-b",
-				"@bp0-block-padding-horizontal\t(variables.inc.less)"
 			],
 			[
 				"@bp0-divid",
@@ -136,20 +236,12 @@
 				"scroll-to-top\t(page.html.eco)"
 			],
 			[
-				"@inver",
-				"@inverted-font-color\t(variables.inc.less)"
-			],
-			[
 				"ac",
 				"activeElement"
 			],
 			[
 				"@bp0-co",
 				"@bp0-content-padding-horizontal\t(variables.inc.less)"
-			],
-			[
-				"@bp0-bl",
-				"@bp0-block-padding-horizontal"
 			],
 			[
 				"@bp0-block",
@@ -168,10 +260,6 @@
 				"@inversed-border-color"
 			],
 			[
-				"tex",
-				"text-align"
-			],
-			[
 				"@bp0-n",
 				"@bp0-nav-font-size\t(variables.inc.less)"
 			],
@@ -186,10 +274,6 @@
 			[
 				"padd",
 				"padding"
-			],
-			[
-				"@bp0-hea",
-				"@bp0-header-font-size\t(header.inc.less)"
 			],
 			[
 				"@bp0",
@@ -268,19 +352,10 @@
 	"buffers":
 	[
 		{
-			"file": "src/layouts/page.html.eco",
+			"file": "src/render/assets/css/main.inc.less",
 			"settings":
 			{
-				"buffer_size": 2875,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/render/assets/css/screen.css.less",
-			"settings":
-			{
-				"buffer_size": 258,
+				"buffer_size": 2765,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -289,34 +364,60 @@
 			"file": "src/render/assets/css/variables.inc.less",
 			"settings":
 			{
-				"buffer_size": 3565,
+				"buffer_size": 6803,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/render/assets/css/footer.inc.less",
+			"file": "src/render/contact/index.html.md",
 			"settings":
 			{
-				"buffer_size": 958,
+				"buffer_size": 1417,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/render/assets/css/main.inc.less",
+			"file": "src/render/assets/css/form.inc.less",
 			"settings":
 			{
-				"buffer_size": 2196,
+				"buffer_size": 469,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/render/assets/css/nav.inc.less",
+			"file": "out/assets/css/screen.css",
 			"settings":
 			{
-				"buffer_size": 2449,
+				"buffer_size": 8804,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "docpad.coffee",
+			"settings":
+			{
+				"buffer_size": 1479,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "node_modules/docpad-plugin-livereload/out/livereload.plugin.js",
+			"settings":
+			{
+				"buffer_size": 5793,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "gulpfile.coffee",
+			"settings":
+			{
+				"buffer_size": 1291,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -325,35 +426,7 @@
 			"file": "src/render/assets/css/content.inc.less",
 			"settings":
 			{
-				"buffer_size": 569,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/render/assets/css/header.inc.less",
-			"settings":
-			{
-				"buffer_size": 2423,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/render/assets/css/under-fold.inc.less",
-			"settings":
-			{
-				"buffer_size": 509,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/render/assets/css/above-fold.inc.less",
-			"settings":
-			{
-				"buffer_size": 683,
-				"encoding": "UTF-8",
+				"buffer_size": 1605,
 				"line_ending": "Unix"
 			}
 		}
@@ -400,35 +473,53 @@
 	"expanded_folders":
 	[
 		"/home/bruno/Bureaublad/dev/stellar/2",
-		"/home/bruno/Bureaublad/dev/stellar/2/src",
+		"/home/bruno/Bureaublad/dev/stellar/2/out",
+		"/home/bruno/Bureaublad/dev/stellar/2/out/assets",
+		"/home/bruno/Bureaublad/dev/stellar/2/out/assets/css",
 		"/home/bruno/Bureaublad/dev/stellar/2/src/layouts",
-		"/home/bruno/Bureaublad/dev/stellar/2/src/render",
 		"/home/bruno/Bureaublad/dev/stellar/2/src/render/assets",
-		"/home/bruno/Bureaublad/dev/stellar/2/src/render/assets/css",
 		"/home/bruno/Bureaublad/dev/stellar/2/src/render/assets/js",
-		"/home/bruno/Bureaublad/dev/stellar/2/src/static",
-		"/home/bruno/Bureaublad/dev/stellar/2/src/static/assets"
+		"/home/bruno/Bureaublad/dev/stellar/2/src/render/test-markdown-elements"
 	],
 	"file_history":
 	[
+		"/home/bruno/Bureaublad/dev/stellar/2/package.json",
+		"/home/bruno/Bureaublad/dev/stellar/2/out/assets/css/screen.css",
+		"/home/bruno/Bureaublad/dev/stellar/2/out/assets/index.html",
+		"/home/bruno/Bureaublad/dev/stellar/2/out/assets/css/index.html",
+		"/home/bruno/Bureaublad/dev/stellar/2/docpad.coffee",
+		"/home/bruno/Bureaublad/dev/stellar/2/gulpfile.coffee",
+		"/home/bruno/Bureaublad/dev/stellar/2/out/dist/css/screen.css",
+		"/home/bruno/Bureaublad/dev/stellar/2/out/test/css/screen.css",
+		"/home/bruno/Bureaublad/dev/stellar/2/custom_markdown.coffee",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/render/assets/css/screen.css.less",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/render/test-markdown-elements/index.html.md",
+		"/home/bruno/Bureaublad/dev/stellar/2/node_modules/docpad-plugin-marked/out/marked.plugin.js",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/render/index.html.md",
+		"/home/bruno/Bureaublad/dev/stellar/2/node_modules/docpad-plugin-marked/package.json",
+		"/home/bruno/Bureaublad/dev/stellar/2/node_modules/docpad-plugin-marked/README.md",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/render/assets/css/above-fold.inc.less",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/render/assets/css/under-fold.inc.less",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/render/assets/css/content.inc.less",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/render/assets/css/nav.inc.less",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/render/assets/css/main.inc.less",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/render/assets/css/header.inc.less",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/render/assets/css/footer.inc.less",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/render/assets/css/variables.inc.less",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/layouts/page.html.eco",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/render/assets/css/inverted.mod.inc.less",
+		"/home/bruno/Bureaublad/build.md",
 		"/home/bruno/Bureaublad/dev/stellar/2/todo.md",
 		"/home/bruno/Bureaublad/dev/stellar/2/stellar_2.sublime-project",
 		"/home/bruno/Bureaublad/dev/stellar/main/src/render/assets/css/main.inc.less",
 		"/home/bruno/Bureaublad/dev/stellar/2/src/render/assets/js/main.js.coffee",
 		"/home/bruno/Bureaublad/dev/stellar/2/src/render/assets/css/rounded.mod.inc.less",
-		"/home/bruno/Bureaublad/dev/stellar/2/gulpfile.coffee",
-		"/home/bruno/Bureaublad/dev/stellar/2/src/render/assets/css/main.inc.less",
-		"/home/bruno/Bureaublad/dev/stellar/2/docpad.coffee",
 		"/home/bruno/Bureaublad/dev/stellar/main/src/layouts/page.html.eco",
 		"/home/bruno/Bureaublad/dev/stellar/main/src/render/assets/css/content.inc.less",
-		"/home/bruno/Bureaublad/dev/stellar/2/src/render/index.html.md",
 		"/home/bruno/Bureaublad/stellar/src/render/assets/css/main.inc.less",
 		"/home/bruno/Bureaublad/stellar/src/render/assets/css/header.inc.less",
-		"/home/bruno/Bureaublad/dev/stellar/2/src/render/assets/css/above-fold.inc.less",
-		"/home/bruno/Bureaublad/dev/stellar/2/package.json",
 		"/home/bruno/Bureaublad/dev/sources/docs/configure_sublime_text",
 		"/home/bruno/Bureaublad/dev/stellar/2/src/render/assets/css/screen.css",
-		"/home/bruno/Bureaublad/dev/stellar/2/src/render/assets/css/variables.inc.less",
 		"/home/bruno/Bureaublad/dev/stellar/main/src/render/index.html.md",
 		"/home/bruno/Bureaublad/dev/stellar/main/out/assets/css/screen.css",
 		"/home/bruno/Bureaublad/dev/stellar/main/src/render/assets/css/nav.inc.less",
@@ -442,7 +533,6 @@
 		"/home/bruno/Bureaublad/stellar/docpad.coffee",
 		"/home/bruno/Bureaublad/dev/stellar/main/src/render/assets/css/footer.inc.less",
 		"/home/bruno/Bureaublad/dev/stellar/main/src/render/assets/css/header.inc.less",
-		"/home/bruno/Bureaublad/build.md",
 		"/home/bruno/Bureaublad/dev/stellar/main/src/render/assets/css/under-fold.inc.less",
 		"/home/bruno/Bureaublad/dev/stellar/main/src/render/assets/css/above-fold.inc.less",
 		"/home/bruno/Bureaublad/dev/stellar/main/src/static/assets/css/font-awesome.css",
@@ -537,6 +627,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"place",
+			"main",
+			"868",
+			"width",
 			"inversed",
 			"show",
 			"class",
@@ -569,145 +663,24 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/layouts/page.html.eco",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2875,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								646,
-								646
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/eco/Syntaxes/HTML (ECO).tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/render/assets/css/screen.css.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 258,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								258,
-								258
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LESS/LESS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/render/assets/css/variables.inc.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3565,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1495,
-								1495
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LESS/LESS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 298.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "src/render/assets/css/footer.inc.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 958,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								950,
-								950
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LESS/LESS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 135.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
 					"file": "src/render/assets/css/main.inc.less",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2196,
+						"buffer_size": 2765,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								357,
-								357
-							],
-							[
-								619,
-								619
-							],
-							[
-								881,
-								881
+								1524,
+								1524
 							]
 						],
 						"settings":
@@ -716,27 +689,27 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 135.0,
+						"translation.y": 728.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "src/render/assets/css/nav.inc.less",
+					"buffer": 1,
+					"file": "src/render/assets/css/variables.inc.less",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2449,
+						"buffer_size": 6803,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1952,
-								1952
+								2985,
+								2985
 							]
 						],
 						"settings":
@@ -744,83 +717,55 @@
 							"syntax": "Packages/LESS/LESS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1305.0,
+						"translation.y": 1125.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "src/render/assets/css/content.inc.less",
+					"buffer": 2,
+					"file": "src/render/contact/index.html.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 569,
+						"buffer_size": 1417,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								152,
-								152
+								1240,
+								1240
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/LESS/LESS.tmLanguage"
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "src/render/assets/css/header.inc.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2423,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2104,
-								2104
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LESS/LESS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1755.0,
+						"translation.y": 270.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "src/render/assets/css/under-fold.inc.less",
+					"buffer": 3,
+					"file": "src/render/assets/css/form.inc.less",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 509,
+						"buffer_size": 469,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								507,
-								507
+								419,
+								419
 							]
 						],
 						"settings":
@@ -831,35 +776,162 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
-					"file": "src/render/assets/css/above-fold.inc.less",
+					"buffer": 4,
+					"file": "out/assets/css/screen.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 683,
+						"buffer_size": 8804,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								645,
-								645
+								154,
+								154
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/LESS/LESS.tmLanguage"
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 7217.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "docpad.coffee",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1479,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1093,
+								1093
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Better CoffeeScript/CoffeeScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 270.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "node_modules/docpad-plugin-livereload/out/livereload.plugin.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5793,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3872,
+								3872
+							],
+							[
+								4920,
+								4920
+							],
+							[
+								5245,
+								5245
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 630.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "gulpfile.coffee",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1291,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								582,
+								582
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Better CoffeeScript/CoffeeScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 225.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/render/assets/css/content.inc.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1605,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 450.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
 					"type": "text"
 				}
 			]
