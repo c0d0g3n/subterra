@@ -1,0 +1,139 @@
+form {
+	font-size: @bp0-form-font-size;
+	line-height: @bp0-form-line-height;
+	color: @form-font-color;
+}
+
+.form-row {
+	margin: @bp0-form-margin-vertical @bp0-form-margin-horizontal;
+
+	.label-col {
+		.visuallyhidden
+	}
+
+	input, textarea, button {
+		display: block;
+		padding: @bp0-form-padding-vertical @bp0-form-padding-horizontal;
+		width: 100%;
+		border: @bp0-form-border-size @bp0-form-border-type @form-border-color;
+		background: @form-background-color;
+		
+		color: @form-font-color;
+		text-align: center;
+
+		&::placeholder {
+			color: @form-placeholder-color;
+			opacity: 1;
+		}
+	}
+	
+	textarea {
+		resize: vertical;
+		height: 200px;
+		/*line-height: 1.5em;
+		
+		&::placeholder {
+			line-height: 1em;
+		}*/
+	}
+	
+	button {
+		cursor: pointer;
+		
+		&:hover, &:focus {
+			background: @between-color;
+			border-color: @between-color;
+			outline: none;
+		}
+	}
+	
+	input:focus, textarea:focus {
+		background: @form-background-color-active;
+		color: @form-font-color-active;
+		outline: none;
+		
+		&::placeholder {
+			color: @form-placeholder-color-active;
+		}
+	}
+	
+	.notice {
+		text-align: center;
+		color: @between-color;
+	}
+}
+
+.form-row.has-error {
+	input, textarea, button {
+		border-color: @form-border-color-error;
+	}
+	
+	.error-message {
+		color: @error-message-font-color;
+		text-align: center;
+		margin-top: 0.4em;
+	}
+}
+
+.form-message {
+	
+	padding: @bp0-form-padding-vertical @bp0-form-padding-horizontal;
+	border: @bp0-form-border-size @bp0-form-border-type @form-border-color;
+	
+	p {
+		margin: 0;
+		margin-bottom: @bp0-form-padding-vertical / 0.8em;
+		font-size: 0.8em;
+		line-height: 1.2em;
+	}
+	
+	p.message-title {
+		font-weight: bold;
+		font-size: 1em;
+		margin-bottom: @bp0-form-padding-vertical;
+	}
+	
+	p.message-warning {
+		font-size: 0.7em;
+		color: @between-color;
+	}
+	
+	.close-message {
+		display: block;
+		float: right;
+		color: @form-border-color;
+	}
+	
+	&.success {
+		border-color: @form-border-color-success;
+		
+		.close-message {
+			color: @success-message-font-color;
+		}
+		
+		p.message-title {
+			color: @success-message-font-color;
+		}
+	}
+	
+	&.has-error {
+		border-color: @form-border-color-error;
+		
+		.close-message {
+			color: @error-message-font-color;
+		}
+		
+		p.message-title {
+			color: @error-message-font-color;
+		}
+	}
+	
+	p:last-child {
+		margin-bottom: 0 !important; // screw it...
+	}
+	
+	.close-message:hover, .close-message:active {
+		color: @font-color;
+	}
+	
+}

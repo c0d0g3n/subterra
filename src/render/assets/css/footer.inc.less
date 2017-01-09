@@ -1,0 +1,181 @@
+#page-footer {
+	padding:
+		@bp0-block-padding-vertical / @bp0-footer-font-size
+		( @bp0-block-margin-horizontal * 2 + @bp0-header-font-size ) / @bp0-footer-font-size
+		@bp0-block-padding-vertical / @bp0-footer-font-size
+		@bp0-block-margin-horizontal / @bp0-footer-font-size;
+	background: @inverted-background-color;
+
+	font-size: @bp0-footer-font-size;
+	line-height: @bp0-footer-line-height;
+	color: @inverted-font-color;
+
+	p {
+		margin: 0;
+		display: inline-block;
+	}
+
+	.copyright {
+		&:after {
+			display: inline;
+			content: '\00a0';
+		}
+	}
+
+	.theme {
+		font-size: @bp0-theme-footer-font-size;
+		line-height: @bp0-theme-footer-line-height;
+		color: @between-color;
+		font-style: italic;
+		// vertical-align: middle;
+	}
+}
+
+#scroll-to-top {
+	display: block;
+	float: right;
+	// padding: @bp0-block-padding-vertical @bp0-block-padding-horizontal;
+	// margin: -@bp0-block-padding-vertical @right-btn-offset -@bp0-block-padding-vertical 0;
+	// 	@right-btn-offset: ( @bp0-header-font-size - @bp0-nav-font-size ) / 2;
+	margin-right: ( -@bp0-header-font-size - @bp0-block-margin-horizontal ) / @bp0-footer-font-size;
+	width: @bp0-header-font-size / @bp0-footer-font-size;
+
+	// width: @bp0-header-font-size;
+
+	color: @inverted-font-color;
+	text-decoration: none;
+	text-align: center;
+
+	&:visited {
+
+	}
+
+	// &:hover, &:active {
+	// 	background: @content-background-color;
+	// 	color: @font-color;
+	// }
+
+	span {
+		display: block;
+		position: relative;
+		top: -1px;
+	}
+}
+
+
+
+
+
+//           ######## 
+//           ##       
+//           ##       
+//           #######  
+//                 ## 
+//           ##    ## 
+//            ######  
+
+
+@media @bp5-rule {
+	#page-footer {
+		padding:
+			@bp5-block-padding-vertical / @bp5-footer-font-size
+			( @bp5-content-padding-horizontal * 2 + @bp5-header-font-size ) / @bp5-footer-font-size
+			@bp5-block-padding-vertical / @bp5-footer-font-size
+			@bp5-content-padding-horizontal / @bp5-footer-font-size;
+
+		font-size: @bp5-footer-font-size;
+		line-height: @bp5-footer-line-height;
+
+		.theme {
+			font-size: @bp5-theme-footer-font-size;
+			line-height: @bp5-theme-footer-line-height;
+		}
+	}
+
+	#scroll-to-top {
+		margin-right: ( -@bp5-content-padding-horizontal - @bp5-header-font-size ) / @bp5-footer-font-size;
+		width: @bp5-header-font-size / @bp5-footer-font-size;
+	}
+}
+
+
+
+
+
+//              ##     #####   
+//            ####    ##   ##  
+//              ##   ##     ## 
+//              ##   ##     ## 
+//              ##   ##     ## 
+//              ##    ##   ##  
+//            ######   #####   
+
+
+@media @bp10-rule {
+	#page-footer {
+		// width: @bp10-row-width;
+		margin: 0 @bp10-row-margin-horizontal / @bp10-footer-font-size;
+		padding:
+			@bp10-block-margin-vertical / @bp10-footer-font-size
+			0 / @bp10-footer-font-size
+			@bp10-block-margin-vertical / @bp10-footer-font-size
+			@bp10-nav-width / @bp10-footer-font-size;
+		background: none;
+
+		font-size: @bp10-footer-font-size;
+		line-height: @bp10-footer-line-height;
+
+		.copyright {
+			padding:
+				@bp10-block-padding-vertical / @bp10-footer-font-size
+				@bp10-block-padding-horizontal / @bp10-footer-font-size;
+			margin-right: @bp10-block-padding-horizontal / @bp10-footer-font-size; // not right var, but looks better
+			background: @inverted-background-color;
+
+			color: @inverted-font-color;
+
+			&:after {
+				display: none;
+			}
+		}
+
+		.theme {
+			font-size: @bp10-theme-footer-font-size;
+			line-height: @bp10-theme-footer-line-height;
+			vertical-align: middle;
+		}
+	}
+
+	#scroll-to-top {
+		margin: 0;
+		padding:
+			@bp10-block-padding-vertical / @bp10-footer-font-size; // not conform variable names, but produces the desired look
+		width: auto;
+		background: @inverted-background-color;
+
+		&:hover, &:active {
+			background: @content-background-color;
+			color: @font-color;
+		}
+	}
+}
+
+
+
+
+
+//            #######    #####   
+//           ##     ##  ##   ##  
+//                  ## ##     ## 
+//            #######  ##     ## 
+//           ##        ##     ## 
+//           ##         ##   ##  
+//           #########   #####   
+
+
+@media @bp20-rule {
+	#page-footer {
+		width: @bp20-row-width;
+		margin: 0 auto;
+	}
+}

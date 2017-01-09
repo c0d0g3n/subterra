@@ -1,0 +1,53 @@
+#under-fold {
+	background: @content-background-color;
+	border-top: @bp0-divider-size @bp0-divider-type @bp0-divider-color;
+}
+
+#main-row {
+	
+}
+
+
+
+
+
+//              ##     #####   
+//            ####    ##   ##  
+//              ##   ##     ## 
+//              ##   ##     ## 
+//              ##   ##     ## 
+//              ##    ##   ##  
+//            ######   #####   
+
+
+@media @bp10-rule {
+	#under-fold {
+		background: none;
+		border: none;
+	}
+
+	#main-row {
+		// width: @bp10-row-width;
+		margin: 0 @bp10-row-margin-horizontal;
+	}
+}
+
+
+
+
+
+//            #######    #####   
+//           ##     ##  ##   ##  
+//                  ## ##     ## 
+//            #######  ##     ## 
+//           ##        ##     ## 
+//           ##         ##   ##  
+//           #########   #####   
+
+
+@media @bp20-rule {
+	#main-row {
+		width: @bp20-row-width;
+		margin: 0 auto;
+	}
+}

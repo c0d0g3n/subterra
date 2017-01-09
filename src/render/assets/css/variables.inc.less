@@ -1,0 +1,277 @@
+
+
+//            ######   ######## ##    ## ######## ########     ###    ##       
+//           ##    ##  ##       ###   ## ##       ##     ##   ## ##   ##       
+//           ##        ##       ####  ## ##       ##     ##  ##   ##  ##       
+//           ##   #### ######   ## ## ## ######   ########  ##     ## ##       
+//           ##    ##  ##       ##  #### ##       ##   ##   ######### ##       
+//           ##    ##  ##       ##   ### ##       ##    ##  ##     ## ##       
+//            ######   ######## ##    ## ######## ##     ## ##     ## ######## 
+
+
+// background colors
+@content-background-color: #eee;										// for (main) content blocks
+@content-background-color-dark: #ccc;
+@inverted-background-color: lighten( @inverted-border-color, 10% );		// for emphasized blocks
+
+// border colors
+@content-border-color: darken( @content-background-color, 10% );
+@inverted-border-color: black;
+
+// font colors
+@font-color: @inverted-background-color;
+@inverted-font-color: @content-background-color;
+@inverted-font-color-dark: @content-background-color-dark;
+
+// inbetween
+@between-color: lighten( @inverted-border-color, 50% );
+
+// form / inputs
+@form-font-color: @inverted-font-color;
+@form-font-color-active: @font-color;
+@form-placeholder-color: @between-color;
+@form-placeholder-color-active: @between-color;
+@form-background-color: @inverted-background-color;
+@form-background-color-active: @content-background-color;
+@form-border-color: @inverted-background-color;
+@form-border-color-error: @form-border-color;
+@form-border-color-success: green;
+
+// messages (form)
+@error-message-font-color: red;
+@success-message-font-color: green;
+
+
+
+
+
+//             #####   
+//            ##   ##  
+//           ##     ## 
+//           ##     ## 
+//           ##     ## 
+//            ##   ##  
+//             #####   
+
+
+// font
+@bp0-font-size: 16px;
+@bp0-line-height: 1.6em;
+
+// p
+@bp0-p-padding-vertical: 1.5em;
+@bp0-p-padding-horizontal: 0;
+
+// h1
+@bp0-h1-font-size: 2em;
+
+// h2
+@bp0-h2-font-size: 1.5em;
+
+// h3
+@bp0-h3-font-size: 1.1em;
+
+// header
+@bp0-header-height: 200px;
+@bp0-header-font-size: 2.3em;
+@bp0-header-line-height: 1em;
+
+// footer
+@bp0-footer-font-size: 0.8em;
+@bp0-footer-line-height: 1em;
+
+// theme footer
+@bp0-theme-footer-font-size: 0.6em;
+@bp0-theme-footer-line-height: 1em;
+
+// block
+@bp0-block-padding-horizontal: 1.2em;
+@bp0-block-padding-vertical: 1em;
+@bp0-block-margin-horizontal: 0.8em;			// usually implemented as parent's element padding for convenience
+@bp0-block-margin-vertical: 1.2em;			// usually implemented as parent's element padding for convenience
+
+// nav
+@bp0-nav-font-size: 1em;
+@bp0-nav-line-height: 1em;
+
+// content
+@bp0-content-padding-vertical: @bp0-block-padding-vertical;
+@bp0-content-padding-horizontal: @bp0-block-margin-horizontal;
+
+// divider
+@bp0-divider-size: 0.5em;
+@bp0-divider-type: solid;
+@bp0-divider-color: @inverted-background-color;
+
+// lists
+@bp0-list-type-width: 2em;
+@bp0-ol-nested-width: 3em;
+
+// form
+@bp0-form-font-size: @bp0-font-size;
+@bp0-form-line-height: 1em;
+@bp0-form-padding-horizontal: @bp0-block-padding-horizontal - @bp0-form-border-size;
+@bp0-form-padding-vertical: @bp0-block-padding-vertical - @bp0-form-border-size;
+@bp0-form-margin-horizontal: 0;
+@bp0-form-margin-vertical: @bp0-p-padding-vertical / 2;
+@bp0-form-border-size: 1em * 5px / @bp0-font-size;
+@bp0-form-border-type: solid;
+
+
+
+
+
+//           ##     ## 
+//           ##     ## 
+//           ##     ## 
+//           ######### 
+//           ##     ## 
+//           ##     ## 
+//           ##     ## 
+
+
+// definition
+@bph-height: 350px;
+@bph-rule: ~'(min-height: @{bph-height})';
+
+// header
+@bph-header-height: 300px;
+
+
+
+
+
+//           ######## 
+//           ##       
+//           ##       
+//           #######  
+//                 ## 
+//           ##    ## 
+//            ######  
+
+
+// definition
+	// increase font size (?) and block padding
+@bp5-width: 500px;
+@bp5-rule: ~'(min-width: @{bp5-width})';
+
+// font
+@bp5-font-size: 17px;
+@bp5-line-height: 1.5em;
+
+// p
+@bp5-p-padding-vertical: @bp0-p-padding-vertical;
+@bp5-p-padding-horizontal: @bp0-p-padding-horizontal;
+
+// h1
+@bp5-h1-font-size: @bp0-h1-font-size;
+
+// nav
+@bp5-nav-font-size: 1em;
+@bp5-nav-line-height: 1em;
+
+// block
+@bp5-block-padding-horizontal: @bp0-block-padding-horizontal;
+@bp5-block-padding-vertical: @bp0-block-padding-vertical;
+@bp5-block-margin-horizontal: @bp0-block-margin-horizontal;
+@bp5-block-margin-vertical: @bp0-block-margin-vertical;	
+
+// content
+@bp5-content-padding-vertical: @bp5-block-padding-vertical;
+@bp5-content-padding-horizontal: @bp5-block-margin-horizontal + @bp5-block-padding-horizontal;
+
+// header
+@bp5-header-font-size: @bp0-header-font-size;
+
+// footer
+@bp5-footer-font-size: @bp0-footer-font-size;
+@bp5-footer-line-height: @bp0-footer-line-height;
+
+// theme footer
+@bp5-theme-footer-font-size: @bp0-theme-footer-font-size;
+@bp5-theme-footer-line-height: @bp0-theme-footer-line-height;
+
+// divider
+@bp5-divider-size: @bp0-divider-size;
+
+
+
+
+//              ##     #####   
+//            ####    ##   ##  
+//              ##   ##     ## 
+//              ##   ##     ## 
+//              ##   ##     ## 
+//              ##    ##   ##  
+//            ######   #####   
+
+
+// definition
+@bp10-width: 700px;
+@bp10-rule: ~'(min-width: @{bp10-width})';
+
+// header
+@bp10-header-height: 100vh;
+@bp10-header-font-size: 4em;
+@bp10-header-line-height: 1em;
+
+// footer
+@bp10-footer-font-size: @bp0-footer-font-size;
+@bp10-footer-line-height: @bp0-footer-line-height;
+
+// theme footer
+@bp10-theme-footer-font-size: @bp0-theme-footer-font-size;
+@bp10-theme-footer-line-height: @bp0-theme-footer-line-height;
+
+// h1
+@bp10-h1-font-size: 2em;
+
+// row
+// @bp10-row-width: 80%;
+@bp10-row-margin-horizontal: @bp10-block-margin-horizontal;
+
+// nav
+@bp10-nav-width: @bp10-block-margin-horizontal + 2 * @bp10-block-padding-horizontal + @bp10-nav-font-size;
+@bp10-nav-font-size: 2em;
+@bp10-nav-line-height: ( ( @bp10-block-padding-horizontal - @bp10-block-padding-vertical ) * 2 + @bp10-nav-font-size ) / @bp10-nav-font-size; // correct square (yet allow other blocks to have different x and y padding)
+
+// block
+@bp10-block-padding-horizontal: 1.5em;
+@bp10-block-padding-vertical: 1em;
+@bp10-block-margin-horizontal: 2em;
+@bp10-block-margin-vertical: 2em;
+
+// font
+@bp10-font-size: @bp5-font-size;
+@bp10-line-height: @bp5-line-height;
+// @bp10-font-size: 16px;
+// @bp10-line-height: 1.5em;
+
+// divider
+@bp10-divider-size: @bp0-divider-size;
+
+// images
+@bp10-image-border-size: 1em * 7px / @bp10-font-size;
+@bp10-image-border-type: solid;
+@bp10-image-border-color: @inverted-background-color;
+@bp10-image-extension-horizontal: @bp10-image-border-size;
+
+
+
+
+
+//            #######    #####   
+//           ##     ##  ##   ##  
+//                  ## ##     ## 
+//            #######  ##     ## 
+//           ##        ##     ## 
+//           ##         ##   ##  
+//           #########   #####   
+
+
+// definition
+@bp20-width: @bp20-row-width + 2 * @bp10-row-margin-horizontal * @bp10-font-size; // wrong bp ?
+@bp20-rule: ~"(min-width: " (@bp20-width) ~")";
+
+// row
+@bp20-row-width: 800px;

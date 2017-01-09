@@ -1,0 +1,28 @@
+{
+  "name": "stellar-theme.docpad",
+  "version": "0.1.0",
+  "description": "",
+  "author": "c0d0g3n",
+  "dependencies": {
+    "docpad": "~6.79.0",
+    "docpad-plugin-coffeescript": "~2.5.0",
+    "docpad-plugin-eco": "~2.1.0",
+    "docpad-plugin-ghpages": "~2.4.4",
+    "docpad-plugin-gulp": "~2.1.6",
+    "docpad-plugin-ignoreincludes": "~2.1.0",
+    "docpad-plugin-less": "~2.4.1",
+    "docpad-plugin-livereload": "~2.7.1",
+    "docpad-plugin-marked": "~2.3.0",
+    "docpad-plugin-outputphp": "^2.0.4",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-jsmin": "^0.1.5",
+    "gulp-rename": "^1.2.2"
+  },
+  "main": "node_modules/.bin/docpad-server",
+  "scripts": {
+    "start": "node_modules/.bin/docpad-server",
+    "deploy": "node_modules/.bin/docpad deploy-ghpages --silent --env static"
+  }
+}
