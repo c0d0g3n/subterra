@@ -18,6 +18,7 @@ docpadConfig = {
 			tagLine: "Awesome recording studio"
 			# url: 'https://c0d0g3n.github.io/subterra2'
 			url: 'https://subterra2-c0d0g3n.c9users.io'
+			contactFileName: 'contact'
 
 		pageTitle: ->
 			if @document.title then "#{@document.title} - #{@site.title}" else @site.title

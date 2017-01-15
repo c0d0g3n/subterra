@@ -48,10 +48,12 @@
 		}
 
 		&:hover, &:active {
-			// improve: see todo.md
-			background: @content-background-color;
+			// padding-top: ( @bp0-block-padding-vertical - @bp0-nav-border-size ) / @bp0-nav-font-size;
+			// padding-bottom: ( @bp0-block-padding-vertical - @bp0-nav-border-size ) / @bp0-nav-font-size;
+			background: @nav-background-color-hover;
 			color: @font-color;
-			// background: @between-color;
+			// border-top: @bp0-nav-border-size @bp0-nav-border-type @bp0-nav-border-color;
+			// border-bottom: @bp0-nav-border-size @bp0-nav-border-type @bp0-nav-border-color;
 		}
 
 		&:focus {

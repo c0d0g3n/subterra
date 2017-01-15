@@ -10,6 +10,7 @@
 	<!-- chrome theme, match inverted background color -->
 	<meta name="theme-color" content="#1a1a1a">
 	<!-- <link rel="icon" sizes="192x192" href="nice-highres.png"> -->
+	<link rel="canonical" href="<%= if @document.isHome then @site.url else @site.url + '/' + @document.slug %>" />
 
 	<title><%= @pageTitle() %></title>
 
