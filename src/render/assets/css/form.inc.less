@@ -61,6 +61,11 @@ form {
 		text-align: center;
 		color: @between-color;
 	}
+
+	.g-recaptcha {
+		margin: 0 auto;
+		width: 304px;
+	}
 }
 
 .form-row.has-error {
@@ -125,6 +130,18 @@ form {
 		
 		p.message-title {
 			color: @error-message-font-color;
+		}
+	}
+
+	&.mail-failed {
+		border-color: @form-border-color-mail-failed;
+
+		.close-message {
+			color: @mail-failed-message-font-color;
+		}
+
+		p.message-title {
+			color: @mail-failed-message-font-color;
 		}
 	}
 	

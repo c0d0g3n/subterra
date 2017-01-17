@@ -4,6 +4,7 @@ title: 'contactformulier'
 inMenu: true
 menuIcon: 'envelope'
 menuOrder: 30
+insertHead: '<script src="https://www.google.com/recaptcha/api.js"></script>'
 ---
 
 	<?php 
@@ -60,14 +61,20 @@ Wij sturen dan zo snel mogelijk een bericht terug.
 			<?php display_error( 'message' ); ?>
 		</div>
 	</div>
+	<div class="form-row<?php field_class('captcha'); ?>">
+		<div class="captcha-col">
+			<div class="g-recaptcha" data-sitekey="6LcgMBIUAAAAABTC3lszbv3Patnrh9arkXTvL-Jl"></div>
+			<?php display_error( 'captcha' ); ?>
+		</div>
+	</div>
 	<div class="form-row">
 		<div class="notice">
-			Velden met een asterisk (*) zijn verplicht.
+			Velden met een asterisk (*) en de captcha zijn verplicht.
 		</div>
 	</div>
 	<div class="form-row">
 		<div class="button-col">
-			<button type="contact[submit]" name="submit" id="cf-submit">Verzend</button>
+			<button type="submit" name="contact[submit]" id="cf-submit">Verzend</button>
 		</div>
 	</div>
 </form>

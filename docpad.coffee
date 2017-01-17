@@ -17,7 +17,7 @@ docpadConfig = {
 			title: "Subterra"
 			tagLine: "Awesome recording studio"
 			# url: 'https://c0d0g3n.github.io/subterra2'
-			url: 'https://subterra2-c0d0g3n.c9users.io'
+			url: 'http://192.168.0.14/subterra'
 			contactFileName: 'contact'
 
 		pageTitle: ->
@@ -43,6 +43,7 @@ docpadConfig = {
 		gulp:
 			writeAfter: ['cssmin', 'jsmin']
 			generateAfter: false
+			background: true
 		marked:
 			markedRenderer:
 				image: (href, title, text) ->
@@ -70,12 +71,12 @@ docpadConfig = {
 		development:
 			templateData:
 				site:
-					url: 'https://subterra2-c0d0g3n.c9users.io'
+					url: 'http://192.168.0.14/subterra'
 				environment: 'development'
-			plugins:
-				gulp:
+			# plugins:
+				# gulp:
 					# dont need minified and concaterated files in development mode
-					generateAfter: false
+					# writeAfter: false
 }
 
 # Export the DocPad Configuration
