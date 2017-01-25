@@ -1,9 +1,9 @@
 ---
 layout: 'php-page'
-title: 'contactformulier'
+title: 'contacteer ons'
 inMenu: true
 menuIcon: 'envelope'
-menuOrder: 30
+menuOrder: 40
 insertHead: '<script src="https://www.google.com/recaptcha/api.js"></script>'
 ---
 
@@ -13,8 +13,35 @@ insertHead: '<script src="https://www.google.com/recaptcha/api.js"></script>'
 		form_message();
 	?>
 
-U kan het onderstaande formulier gebruiken om meer info te vragen of de studio te reserveren.
-Wij sturen dan zo snel mogelijk een bericht terug.
+U kan ons via onderstaande gegevens bereiken, of het contactformulier op deze pagina invullen.
+Wij proberen uw aanvragen zo snel mogelijk te beantwoorden.
+
+## Contactgegevens
+
+<div class="contact">
+	<div class="contact-item">
+		<span class="fa fa-fw fa-building" aria-label="Organisatie: "></span>
+		Subterra vzw
+	</div>
+	<div class="contact-item">
+		<span class="fa fa-fw fa-map-marker" aria-label="Adres: "></span>
+		<span class="address-line">Cuvelierstraat 13 A</span>
+		<span class="address-line">B-3740 Bilzen-Rijkhoven</span>
+		<span class="address-line">België</span>
+	</div>
+	<div class="contact-item">
+		<span class="fa fa-fw fa-mobile" aria-label="Gsm: "></span>
+		0032 (0)478 56 86 84
+	</div>
+	<div class="contact-item">
+		<span class="fa fa-fw fa-phone" aria-label="Telefoon: "></span>
+		0845 410 131
+	</div>
+</div>
+
+
+
+## Contactformulier
 
 <form id="cf" class="<?php form_class(); ?>" action="" method="post">
 	<div class="form-row<?php field_class('name'); ?>">

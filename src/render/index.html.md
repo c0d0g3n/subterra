@@ -1,46 +1,14 @@
 ---
 layout: 'page'
-title: 'Welcome'
+title: 'Opnamestudio'
 isHome: true
 inMenu: true
 menuIcon: 'home'
 menuOrder: 10
 tooltip: 'Homepage'
 ---
+De Subterra opnamestudio is gelegen in een kelderverdieping, volledig akoestisch geïsoleerd waardoor geen enkel geluid of trilling van buitenuit de studioruimte kan bereiken. In de opnameruimte heerst een absolute stilte: onze klanten vergelijken de sfeer in de ruimte wel eens met die van een bioscoopzaal: pure stilte en een uitgekiende isolatie resulteren in een warm geluid dat vooral bij de opnames van stemmen, akoestische instrumenten en percussie “voelbaar” is.
 
-row # | test
---- | ---
-0 | abc
-1 | def
+!["Technische ruimte van de Subterra opnamestudio"](assets/images/technische_ruimte_subterra_opnamestudio.png)
 
-test__test__test
-
-<p id="important-test">Derp</p>
-
-https://example.com
-
-Hieronder staan class-switches om met css te experimenteren.
-
-- <a onClick="addClass('square')">Vierkant thema</a>
-
-Lorem ipsum dolor sit amet, consectetur adipi**sicing elit, sed do eiusmod
-te**mpor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+De studio heeft tot doel te trachten binnen elk genre van muziek, met de klant en gebruikmakend van onze apparatuur en onze kennis, een zo hoog mogelijke geluidskwaliteit na te streven. Wil je weten hoe we klinken, dan kan je altijd eerst even langskomen voor een luistersessie: we laten dan enkele in onze opname-studio gemaakte tracks horen en we tonen je onze apparatuur. Uiteraard kunnen we je enkele klanten aanduiden die we als referentie mogen opgeven. 

@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"ba",
+				"background"
+			],
+			[
 				"glo",
 				"global"
 			],
@@ -367,33 +371,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "src/static/backend/contact/common.php",
-			"settings":
-			{
-				"buffer_size": 678,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/static/backend/contact/lib.php",
-			"settings":
-			{
-				"buffer_size": 15367,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/static/backend/contact/settings.php",
-			"settings":
-			{
-				"buffer_size": 901,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -438,39 +415,63 @@
 	[
 		"/C/Users/roos/Desktop/dev/subterra/subterra2",
 		"/C/Users/roos/Desktop/dev/subterra/subterra2/src",
+		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/layouts",
 		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render",
+		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/assets",
 		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/assets/css",
-		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/static",
+		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/assets/js",
+		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/static/assets",
+		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/static/assets/css",
 		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/static/backend",
 		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/static/backend/contact",
-		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/static/backend/PHPMailer"
+		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/static/backend/recaptcha",
+		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/static/backend/recaptcha/src"
 	],
 	"file_history":
 	[
-		"/C/php710/php.ini",
-		"/C/Users/roos/Desktop/apache/phpinfo.php",
+		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/assets/css/main.inc.less",
 		"/C/Users/roos/Desktop/dev/subterra/subterra2/docpad.coffee",
+		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/assets/css/header.inc.less",
+		"/C/Users/roos/Desktop/dev/jordy/src/render/ik.html.md",
+		"/C/Users/roos/Desktop/dev/jordy/src/render/quotes/index.html.md.eco",
+		"/C/Users/roos/Desktop/dev/jordy/docpad.coffee",
+		"/C/Users/roos/Desktop/dev/jordy/src/layouts/page.html.eco",
+		"/C/Users/roos/Desktop/dev/jordy/src/render/assets/js/site.js.coffee",
+		"/C/Users/roos/Desktop/dev/jordy/src/render/quotes/quotes.json.eco",
+		"/C/Users/roos/Desktop/dev/jordy/src/render/index.html.md",
+		"/C/Users/roos/Desktop/dev/jordy/src/render/quotes/Fil5.html",
+		"/C/php710/php.ini",
+		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/assets/css/variables.inc.less",
+		"/C/Users/roos/AppData/Local/Temp/Rar$DIa0.066/README.md",
+		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/layouts/page.html.eco",
+		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/contact.php.html.md",
+		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/apperatuur.html.md",
+		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/assets/css/nav.inc.less",
+		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/werkwijze_en_prijslijst.html.md",
+		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/voorwaarden.html.md",
 		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/index.html.md",
-		"/C/Users/roos/Desktop/dev/subterra/subterra2/gulpfile.coffee",
-		"/C/Users/roos/Desktop/dev/subterra/subterra2/node_modules/docpad-plugin-gulp/out/gulp.plugin.js",
-		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/assets/css/form.inc.less",
-		"/C/Users/roos/Desktop/dev/subterra/subterra2/out/assets/css/screen.css",
-		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/static/backend/contact/lib.php",
+		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/static/assets/images/studio-test.png",
 		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/static/backend/contact/common.php",
+		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/static/backend/contact/lib.php",
+		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/assets/css/form.inc.less",
+		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/assets/css/above-fold.inc.less",
+		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/static/backend/contact/credentials.php",
+		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/static/backend/recaptcha/src/autoload.php",
+		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/static/backend/contact/settings.php",
+		"/C/Users/roos/Desktop/dev/subterra/subterra2/node_modules/docpad-plugin-gulp/out/gulp.plugin.js",
+		"/C/Users/roos/Desktop/dev/subterra/subterra2/.gitignore",
+		"/C/Users/roos/Desktop/apache/phpinfo.php",
+		"/C/Users/roos/Desktop/dev/subterra/subterra2/gulpfile.coffee",
+		"/C/Users/roos/Desktop/dev/subterra/subterra2/out/assets/css/screen.css",
 		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/static/backend/contact/static.php",
 		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/assets/css/screen.css.less",
 		"/C/Users/roos/Desktop/dev/subterra/subterra2/out/dist/css/screen.css",
 		"/C/Users/roos/Desktop/dev/subterra/subterra2/out/index.html",
 		"/C/Users/roos/Desktop/apache/subterra/assets/css/screen.css",
-		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/static/backend/contact/settings.php",
-		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/assets/css/variables.inc.less",
-		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/contact.php.html.md",
-		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/layouts/page.html.eco",
 		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/layouts/php-page.php.html.eco",
 		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/static/backend/contact/ajax.php",
 		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/assets/css/content.inc.less",
 		"/C/Users/roos/Desktop/dev/subterra/subterra2/node_modules/docpad-plugin-livereload/out/livereload.plugin.js",
-		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/assets/css/main.inc.less",
 		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/contact/index.html.md",
 		"/home/bruno/Bureaublad/dev/stellar/2/package.json",
 		"/home/bruno/Bureaublad/dev/stellar/2/out/assets/css/screen.css",
@@ -555,30 +556,11 @@
 		"/home/bruno/Bureaublad/dev/stellar/main/out/js/main.js",
 		"/home/bruno/Bureaublad/dev/stellar/main/out/js/stellar.js",
 		"/home/bruno/Bureaublad/dev/stellar/main/README.md",
-		"/home/bruno/Bureaublad/dev/stellar/main/.gitignore",
-		"/home/bruno/Bureaublad/dev/stellar/main/src/render/js/main.js.coffee",
-		"/home/bruno/Bureaublad/dev/stellar/main/out/css/screen.css",
-		"/home/bruno/Bureaublad/dev/stellar/main/out/css/screen.min.css",
-		"/home/bruno/Bureaublad/dev/stellar/main/src/render/js/test.js.coffee",
-		"/home/bruno/Bureaublad/dev/stellar/main/src/render/js/stellar.js.coffee",
-		"/home/bruno/Bureaublad/dev/stellar/main/out/css/variables.less",
-		"/home/bruno/Bureaublad/dev/stellar/main/src/render/css/variables.less",
-		"/home/bruno/Bureaublad/dev/stellar/main/src/render/index.html.eco",
-		"/home/bruno/Bureaublad/dev/stellar/main./package.json",
-		"/home/bruno/Bureaublad/stellar/package.json",
-		"/home/bruno/Bureaublad/stellar/documentation/documentatie.md",
-		"/home/bruno/Bureaublad/dev/stellar/main/stellar.sublime-project",
-		"/home/bruno/Bureaublad/dev/stellar/package.json",
-		"/home/bruno/Bureaublad/dev/stellar/stellar.sublime-project",
-		"/home/bruno/Bureaublad/dev/crosshair/http/.git/COMMIT_EDITMSG",
-		"/home/bruno/Bureaublad/dev/crosshair/http/.gitignore",
-		"/home/bruno/Bureaublad/dev/crosshair/http/assets/css/screen.css",
-		"/home/bruno/Bureaublad/dev/crosshair/http/dev/less/screen.less",
-		"/home/bruno/Bureaublad/dev/crosshair/http/dev/less/includes/header.less"
+		"/home/bruno/Bureaublad/dev/stellar/main/.gitignore"
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
@@ -592,6 +574,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"gd",
+			"mbstring",
+			"curl",
+			"top",
 			"mail_host",
 			"extension_dir",
 			"openssl",
@@ -634,98 +620,8 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "src/static/backend/contact/common.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 678,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								667,
-								667
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 45.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/static/backend/contact/lib.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 15367,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								15364,
-								15364
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
-							"word_wrap": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 7862.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/static/backend/contact/settings.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 901,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								896,
-								896
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -768,7 +664,7 @@
 	"project": "stellar_2.sublime-project",
 	"replace":
 	{
-		"height": 62.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":

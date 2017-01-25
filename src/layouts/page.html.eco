@@ -22,7 +22,9 @@
 <body class="<%= @bodyClass() %>">
 
 	<div id="page">
-		<div id="page-background"></div>
+		<div id="page-background">
+			<div id="page-overlay"></div>
+		</div>
 		<div id="above-fold">
 			<div id="header-row">
 				<header id="page-header">
