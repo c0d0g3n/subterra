@@ -17,7 +17,7 @@ docpadConfig = {
 			title: "Subterra"
 			tagLine: "Awesome recording studio"
 			# url: 'https://c0d0g3n.github.io/subterra2'
-			url: 'http://192.168.0.14/subterra'
+			url: 'http://subterra.gopagoda.io'
 			contactFileName: 'contact'
 
 		pageTitle: ->
@@ -71,7 +71,7 @@ docpadConfig = {
 		development:
 			templateData:
 				site:
-					url: 'http://192.168.0.14/subterra'
+					url: 'http://subterra.gopagoda.io'
 				environment: 'development'
 			# plugins:
 				# gulp:

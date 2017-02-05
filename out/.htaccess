@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^contact\/?$ contact.php
+RewriteRule ^([a-zA-Z1-9\-_]+)\/?$ $1.html [L]

@@ -419,16 +419,14 @@
 		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render",
 		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/assets",
 		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/assets/css",
-		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/assets/js",
-		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/static/assets",
-		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/static/assets/css",
-		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/static/backend",
-		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/static/backend/contact",
-		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/static/backend/recaptcha",
-		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/static/backend/recaptcha/src"
+		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/assets/js"
 	],
 	"file_history":
 	[
+		"/C/Program Files/MongoDB/Server/3.4/mongod.cfg",
+		"/C/Users/roos/Desktop/dev/openroom_prototype/.gitignore",
+		"/C/Users/roos/Desktop/dev/openroom_prototype/package.json",
+		"/C/Users/roos/Desktop/Bruno/notes/programming/mklink.html",
 		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/assets/css/main.inc.less",
 		"/C/Users/roos/Desktop/dev/subterra/subterra2/docpad.coffee",
 		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/assets/css/header.inc.less",
@@ -552,11 +550,7 @@
 		"/home/bruno/Bureaublad/crosshair/gulpfile.js",
 		"/home/bruno/Bureaublad/dev/stellar/main/src/render/css/normalize.inc.css",
 		"/home/bruno/Bureaublad/dev/stellar/main/out/dist/js/stellar.min.js",
-		"/home/bruno/Bureaublad/dev/stellar/main/out/js/stellar.min.js",
-		"/home/bruno/Bureaublad/dev/stellar/main/out/js/main.js",
-		"/home/bruno/Bureaublad/dev/stellar/main/out/js/stellar.js",
-		"/home/bruno/Bureaublad/dev/stellar/main/README.md",
-		"/home/bruno/Bureaublad/dev/stellar/main/.gitignore"
+		"/home/bruno/Bureaublad/dev/stellar/main/out/js/stellar.min.js"
 	],
 	"find":
 	{
