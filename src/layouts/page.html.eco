@@ -23,6 +23,7 @@
 
 	<div id="page">
 		<div id="page-background">
+			<img src="assets/images/full/subterra_technische_ruimte_closeup_kikkerperspectief.JPG" sizes="100vw" srcset="assets/images/400/subterra_technische_ruimte_closeup_kikkerperspectief.JPG 400w, assets/images/600/subterra_technische_ruimte_closeup_kikkerperspectief.JPG 600w, assets/images/800/subterra_technische_ruimte_closeup_kikkerperspectief.JPG 800w, assets/images/1200/subterra_technische_ruimte_closeup_kikkerperspectief.JPG 1200w, assets/images/1600/subterra_technische_ruimte_closeup_kikkerperspectief.JPG 1600w, assets/images/2400/subterra_technische_ruimte_closeup_kikkerperspectief.JPG 2400w">
 			<div id="page-overlay"></div>
 		</div>
 		<div id="above-fold">

@@ -5,6 +5,7 @@ jsmin = 		require 'gulp-jsmin'
 concat = 		require 'gulp-concat'
 rename = 		require 'gulp-rename'
 autoprefixer = 	require 'gulp-autoprefixer'
+imageResize = 	require 'gulp-image-resize'
 
 # default task
 gulp.task 'default', [
@@ -57,3 +58,43 @@ gulp.task 'jsmin', ['jsconcat'], ->
 		.pipe rename
 			suffix: '.min'
 		.pipe gulp.dest 'out/dist/js'
+
+
+# image resize task
+gulp.task 'imgres', ->
+	console.log 'RESIZING IMAGES'
+	gulp
+		.src 'out/assets/images/full/*@(.jpg|.JPG|.png|.PNG)'
+		.pipe imageResize
+			width: 400
+		.pipe gulp.dest 'out/assets/images/400'
+
+	gulp
+		.src 'out/assets/images/full/*@(.jpg|.JPG|.png|.PNG)'
+		.pipe imageResize
+			width: 600
+		.pipe gulp.dest 'out/assets/images/600'
+
+	gulp
+		.src 'out/assets/images/full/*@(.jpg|.JPG|.png|.PNG)'
+		.pipe imageResize
+			width: 800
+		.pipe gulp.dest 'out/assets/images/800'
+
+	gulp
+		.src 'out/assets/images/full/*@(.jpg|.JPG|.png|.PNG)'
+		.pipe imageResize
+			width: 1200
+		.pipe gulp.dest 'out/assets/images/1200'
+
+	gulp
+		.src 'out/assets/images/full/*@(.jpg|.JPG|.png|.PNG)'
+		.pipe imageResize
+			width: 1600
+		.pipe gulp.dest 'out/assets/images/1600'
+
+	gulp
+		.src 'out/assets/images/full/*@(.jpg|.JPG|.png|.PNG)'
+		.pipe imageResize
+			width: 2400
+		.pipe gulp.dest 'out/assets/images/2400'

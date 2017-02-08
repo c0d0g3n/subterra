@@ -423,13 +423,15 @@
 	],
 	"file_history":
 	[
+		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/assets/css/header.inc.less",
+		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/index.html.md",
+		"/C/Users/roos/Desktop/dev/subterra/subterra2/docpad.coffee",
+		"/C/Program Files/ImageMagick-7.0.4-Q16/index.html",
 		"/C/Program Files/MongoDB/Server/3.4/mongod.cfg",
 		"/C/Users/roos/Desktop/dev/openroom_prototype/.gitignore",
 		"/C/Users/roos/Desktop/dev/openroom_prototype/package.json",
 		"/C/Users/roos/Desktop/Bruno/notes/programming/mklink.html",
 		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/assets/css/main.inc.less",
-		"/C/Users/roos/Desktop/dev/subterra/subterra2/docpad.coffee",
-		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/assets/css/header.inc.less",
 		"/C/Users/roos/Desktop/dev/jordy/src/render/ik.html.md",
 		"/C/Users/roos/Desktop/dev/jordy/src/render/quotes/index.html.md.eco",
 		"/C/Users/roos/Desktop/dev/jordy/docpad.coffee",
@@ -447,7 +449,6 @@
 		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/assets/css/nav.inc.less",
 		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/werkwijze_en_prijslijst.html.md",
 		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/voorwaarden.html.md",
-		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/index.html.md",
 		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/static/assets/images/studio-test.png",
 		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/static/backend/contact/common.php",
 		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/static/backend/contact/lib.php",
@@ -549,8 +550,7 @@
 		"/home/bruno/Bureaublad/dev/stellar/main/package.json",
 		"/home/bruno/Bureaublad/crosshair/gulpfile.js",
 		"/home/bruno/Bureaublad/dev/stellar/main/src/render/css/normalize.inc.css",
-		"/home/bruno/Bureaublad/dev/stellar/main/out/dist/js/stellar.min.js",
-		"/home/bruno/Bureaublad/dev/stellar/main/out/js/stellar.min.js"
+		"/home/bruno/Bureaublad/dev/stellar/main/out/dist/js/stellar.min.js"
 	],
 	"find":
 	{

@@ -17,7 +17,8 @@
     "gulp-concat": "^2.6.1",
     "gulp-cssmin": "^0.1.7",
     "gulp-jsmin": "^0.1.5",
-    "gulp-rename": "^1.2.2"
+    "gulp-rename": "^1.2.2",
+    "gulp-image-resize": "^0.12.0"
   },
   "main": "node_modules/.bin/docpad-server",
   "scripts": {
