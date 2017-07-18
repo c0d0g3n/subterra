@@ -1,1 +1,111 @@
-./page.html.eco
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+	<meta name="HandheldFriendly" content="True" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<!-- chrome theme, match inverted background color -->
+	<meta name="theme-color" content="#1a1a1a">
+	<!-- <link rel="icon" sizes="192x192" href="nice-highres.png"> -->
+	<link rel="canonical" href="<%= if @document.isHome then @site.url else @site.url + '/' + @document.slug %>" />
+
+	<title><%= @pageTitle() %></title>
+
+	<%- @getBlock('meta').toHTML() %>
+	<%- @getBlock('styles').add(@getCss()).toHTML() %>
+
+	<%- if @document.insertHead then @document.insertHead %>
+</head>
+<body class="<%= @bodyClass() %>">
+
+	<div id="page">
+		<div id="page-background">
+			<img src="assets/images/full/subterra_technische_ruimte_closeup_kikkerperspectief.JPG" sizes="100vw" srcset="assets/images/400/subterra_technische_ruimte_closeup_kikkerperspectief.JPG 400w, assets/images/600/subterra_technische_ruimte_closeup_kikkerperspectief.JPG 600w, assets/images/800/subterra_technische_ruimte_closeup_kikkerperspectief.JPG 800w, assets/images/1200/subterra_technische_ruimte_closeup_kikkerperspectief.JPG 1200w, assets/images/1600/subterra_technische_ruimte_closeup_kikkerperspectief.JPG 1600w, assets/images/2400/subterra_technische_ruimte_closeup_kikkerperspectief.JPG 2400w">
+			<div id="page-overlay"></div>
+		</div>
+		<div id="above-fold">
+			<div id="header-row">
+				<header id="page-header">
+					<div id="page-header-title">
+						<a href="<%= @site.url %>" title="Homepage"><h1><%= @site.title %></h1></a>
+					</div>
+					<!-- <p class="tag-line"><%- @site.tagLine %></p> -->
+					<div id="page-nav-toggle">
+						<a href="#toggle" title="toggle navigation">
+							<span class="fa fa-bars"></span>
+						</a>
+					</div>
+				</header>
+			</div>
+		</div>
+		<div id="under-fold">
+			<div id="main-row">
+				<nav id="page-nav">
+					<ul>
+						<% for page in  @getCollection("menu").toJSON(): %><li class="nav-item<%= if page.id is @document.id then ' active' %>">
+							<a href="<%= @site.url + page.url %>" title="<%= if page.tooltip? then page.tooltip else page.title %>">
+								<span class="text"><%- if page.tooltip? then page.tooltip else page.title %></span>
+								<span class="fa fa-<%= page.menuIcon %>" aria-hidden="true"></span>
+							</a>
+						</li><% end %>
+						<!-- <li>
+							<a href="#test" title="test">
+								T
+							</a>
+						</li>
+						<li>
+							<a href="#test" title="test">
+								T
+							</a>
+						</li>
+						<li>
+							<a href="#test" title="test">
+								T
+							</a>
+						</li>
+						<li>
+							<a href="#test" title="test">
+								T
+							</a>
+						</li>
+						<li>
+							<a href="#test" title="test">
+								T
+							</a>
+						</li> -->
+						<!-- <li><a href="#">test</a></li>
+						<li><a href="#">test</a></li>
+						<li><a href="#">test</a></li>
+						<li><a href="#">test</a></li>
+						<li><a href="#">test</a></li>
+						<li><a href="#">test</a></li>
+						<li><a href="#">test</a></li>
+						<li><a href="#">test</a></li> -->
+					</ul>
+				</nav>
+				<main id="page-content">
+					<article id="article-<%= @document.title.replace(/\s/g, '-').toLowerCase() %>">
+						<header class="content-header">
+							<h1><%- @document.title %></h1>
+						</header>
+						<%- @content %>
+					</article>
+				</main>
+			</div>
+			<footer id="page-footer">
+				<a id="scroll-to-top" href="#above-fold" title="Scroll back to top"><span class="fa fa-chevron-up" aria-hidden="true"></span></a>
+				<p class="copyright">
+					&copy; Subterra Recording Studio vzw
+				</p><p class="theme">
+					<!-- <a href="https://github.com/c0d0g3n">Theme by c0d0g3n</a> -->
+				</p>
+			</footer>
+		</div>
+	</div>
+
+	<%- @getBlock('scripts').add(@getJs()).toHTML() %>
+</body>
+</html>

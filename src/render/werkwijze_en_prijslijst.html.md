@@ -25,29 +25,25 @@ Voor grotere groepen zoals kamerorkesten, zangkoren, harmonieën, orkesten… ka
 
 
 
-## Zaalversterking – P.A.
-
-De Subterra Recording Studio kan ingeschakeld worden om een zaalversterking te verzorgen: we specialiseren ons in het versterken van het geluid voor kleine groepen (rockbands…) en solo artiesten in kleine zalen (jeugdclubs…) en in het versterken van zangkoren en orkesten in grotere zalen. De kostprijs bedraagt 300 euro + eventuele huurprijs van het te gebruiken materiaal en apparaten. Wil je hierover meer weten, vraag dan vrijblijvend een offerte aan.
-
-
-
 ## Prijzen
 
-- **Opname 1 track** met achtergrondmuziek die volledig klaar is bij aanlevering, meegebracht door de klant op CDr, stick, …
-formaat AUDIO, WAV, MP3: **50 euro**
-- **Opname 1 track** met studio-opname van instrumenten/zang of wanneer de muziek werd aangeleverd (zie boven) maar verder nog **bewerkt** moet worden **in de studio** (mixen, masteren, bewerken, effecten…) : **125 euro**
-- **Opname MINI CD** (3 tot 5 tracks), met studio-opname van
-instrumenten en zang: **500 euro**
-- **Opname MIDI CD** (6 tot 8 tracks), met studio-opname van
-instrumenten en zang: **1250 euro**
-- **Opname FULL CD** met studio-opname van
-instrumenten en zang: **2500 euro**
+- **Opname 1 track** met achtergrondmuziek die volledig klaar is bij aanlevering, meegebracht door de klant op CDr, stick, … formaat AUDIO, WAV, MP3 (mixen en masteren inbegrepen):</br>
+**1ste uur 30 euro, bijkomend uur 15 euro: (&gt; 1/2 uur = 1 uur) of (&lt; 1/2 uur = gratis)**
 
-Inbegrepen in de prijs:
-- 1 CDr met definitieve mix per groepslid
-- 1 MASTER CDr bestemd voor productie (persing), deze master CDr is verzegeld verpakt (do not touch)
+- **Opname 1 track** met studio-opname van instrumenten/zang of wanneer de muziek werd aangeleverd (zie boven) maar verder nog bewerkt moet worden in de studio (mixen, masteren, bewerken, effecten… inbegrepen) : **125 euro**
 
-**Opnemen op locatie**: zelfde prijzen als hierboven. De mobiele Subterra Recording Studio staat garant voor de beste opnames in een locatie naar jouw keuze. Als die locatie (zaal...) in Limburg ligt worden er geen extra vervoerskosten aangerekend.
+- **Opname MINI CD** (2 tot 3 tracks), met studio-opname van instrumenten en zang (mixen, masteren, bewerken, effecten… inbegrepen) : **350 euro**
+
+- **Opname MAXI CD** (4 tot 5 tracks), met studio-opname van instrumenten en zang (mixen, masteren, bewerken, effecten… inbegrepen) : **500 euro**
+
+- **Opname MIDI CD** (6 tot 8 tracks), met studio-opname van instrumenten en zang (mixen, masteren, bewerken, effecten… inbegrepen) : **850 euro**
+
+- **Opname FULL CD** (9 tot 12 tracks), met studio-opname van instrumenten en zang (mixen, masteren, bewerken, effecten… inbegrepen): **1.100 euro**
+
+- **Opname FULL CD** (&gt; 12 tracks), met studio-opname van instrumenten en zang (mixen, masteren, bewerken, effecten… inbegrepen): **1.800 euro**
+
+- **Inlezen van teksten, voice over** (nabewerking en masteren inbegrepen):</br>
+**1ste uur 30 euro, bijkomend uur 15 euro: (&gt; 1/2 uur = 1 uur) of (&lt; 1/2 uur = gratis)**
 
 ## Voorwaarden
 Onze opnamestudio hanteert enkele [voorwaarden](voorwaarden.html "bekijk de voorwaarden en details van werken in onze opnamestudio"). Lees deze a.u.b. even door om misverstanden te voorkomen.

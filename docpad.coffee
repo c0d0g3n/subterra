@@ -6,7 +6,7 @@
 # Define the DocPad Configuration
 docpadConfig = {
 	# port: 8080
-	
+
 	collections:
 		menu: ->
 			@getCollection("documents")
@@ -16,8 +16,6 @@ docpadConfig = {
 		site:
 			title: "Subterra"
 			tagLine: "Awesome recording studio"
-			# url: 'https://c0d0g3n.github.io/subterra2'
-			url: 'http://subterra.gopagoda.io'
 			contactFileName: 'contact'
 
 		pageTitle: ->
@@ -73,8 +71,8 @@ docpadConfig = {
 					# (min-width: 700px) calc(100vw - 4em), (min-width: 700px) calc(100vw - 4em), 681px
 		livereload:
 			enabled: false
-	
-	
+
+
 	enabledPlugins:
 		livereload: false
 
@@ -83,12 +81,16 @@ docpadConfig = {
 	environments:
 		static:
 			templateData:
+				site:
+					url: 'http://subterra.vlaanderen'
 				environment: 'static'
 
 		development:
 			templateData:
 				site:
-					url: 'http://192.168.0.14/subterra'
+					#url: 'http://localhost:9778'
+					# url: 'http://192.168.0.14/subterra'
+					url: 'http://localhost:9778'
 				environment: 'development'
 			# plugins:
 				# gulp:

@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"req",
+				"require"
+			],
+			[
 				"ba",
 				"background"
 			],
@@ -371,6 +375,15 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "docpad.coffee",
+			"settings":
+			{
+				"buffer_size": 2517,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -417,21 +430,43 @@
 		"/C/Users/roos/Desktop/dev/subterra/subterra2/src",
 		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/layouts",
 		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render",
-		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/assets",
 		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/assets/css",
-		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/assets/js"
+		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/assets/js",
+		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/static",
+		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/static/backend",
+		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/static/backend/contact"
 	],
 	"file_history":
 	[
-		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/assets/css/header.inc.less",
-		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/index.html.md",
+		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/static/backend/contact/lib.php",
+		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/static/backend/contact/common.php",
+		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/static/backend/contact/static.php",
+		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/contact.php.html.md",
+		"/C/Users/roos/Desktop/dev/subterra/subterra2/gulpfile.coffee",
+		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/static/backend/contact/credentials.php",
+		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/static/backend/contact/settings.php",
 		"/C/Users/roos/Desktop/dev/subterra/subterra2/docpad.coffee",
+		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/werkwijze_en_prijslijst.html.md",
+		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/assets/js/main.js.coffee",
+		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/index.html.md",
+		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/layouts/page.html.eco",
+		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/.htaccess.eco",
+		"/C/Users/roos/Desktop/.htaccess",
+		"/C/Users/roos/Desktop/dev/subterra/subterra2/.gitignore",
+		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/assets/css/header.inc.less",
+		"/C/Users/roos/Desktop/dev/subterra/subterra2/out/assets/css/screen.css",
+		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/assets/css/variables.inc.less",
+		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/assets/css/above-fold.inc.less",
+		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/assets/css/main.inc.less",
+		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/assets/css/responsive-backgrounds.inc.less",
+		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/assets/css/screen.css.less",
+		"/C/Users/roos/Desktop/dev/subterra/subterra2/package.json",
+		"/C/Program Files/GraphicsMagick-1.3.25-Q16/www/index.html",
 		"/C/Program Files/ImageMagick-7.0.4-Q16/index.html",
 		"/C/Program Files/MongoDB/Server/3.4/mongod.cfg",
 		"/C/Users/roos/Desktop/dev/openroom_prototype/.gitignore",
 		"/C/Users/roos/Desktop/dev/openroom_prototype/package.json",
 		"/C/Users/roos/Desktop/Bruno/notes/programming/mklink.html",
-		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/assets/css/main.inc.less",
 		"/C/Users/roos/Desktop/dev/jordy/src/render/ik.html.md",
 		"/C/Users/roos/Desktop/dev/jordy/src/render/quotes/index.html.md.eco",
 		"/C/Users/roos/Desktop/dev/jordy/docpad.coffee",
@@ -441,29 +476,15 @@
 		"/C/Users/roos/Desktop/dev/jordy/src/render/index.html.md",
 		"/C/Users/roos/Desktop/dev/jordy/src/render/quotes/Fil5.html",
 		"/C/php710/php.ini",
-		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/assets/css/variables.inc.less",
 		"/C/Users/roos/AppData/Local/Temp/Rar$DIa0.066/README.md",
-		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/layouts/page.html.eco",
-		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/contact.php.html.md",
 		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/apperatuur.html.md",
 		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/assets/css/nav.inc.less",
-		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/werkwijze_en_prijslijst.html.md",
 		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/voorwaarden.html.md",
 		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/static/assets/images/studio-test.png",
-		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/static/backend/contact/common.php",
-		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/static/backend/contact/lib.php",
 		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/assets/css/form.inc.less",
-		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/assets/css/above-fold.inc.less",
-		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/static/backend/contact/credentials.php",
 		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/static/backend/recaptcha/src/autoload.php",
-		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/static/backend/contact/settings.php",
 		"/C/Users/roos/Desktop/dev/subterra/subterra2/node_modules/docpad-plugin-gulp/out/gulp.plugin.js",
-		"/C/Users/roos/Desktop/dev/subterra/subterra2/.gitignore",
 		"/C/Users/roos/Desktop/apache/phpinfo.php",
-		"/C/Users/roos/Desktop/dev/subterra/subterra2/gulpfile.coffee",
-		"/C/Users/roos/Desktop/dev/subterra/subterra2/out/assets/css/screen.css",
-		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/static/backend/contact/static.php",
-		"/C/Users/roos/Desktop/dev/subterra/subterra2/src/render/assets/css/screen.css.less",
 		"/C/Users/roos/Desktop/dev/subterra/subterra2/out/dist/css/screen.css",
 		"/C/Users/roos/Desktop/dev/subterra/subterra2/out/index.html",
 		"/C/Users/roos/Desktop/apache/subterra/assets/css/screen.css",
@@ -544,17 +565,11 @@
 		"/home/bruno/Bureaublad/dev/stellar/main/src/render/css/screen.css.less",
 		"/home/bruno/Bureaublad/dev/stellar/main/src/render/css/variables.inc.less",
 		"/home/bruno/Bureaublad/dev/stellar/main/src/render/css/above-fold.inc.less",
-		"/home/bruno/Bureaublad/dev/stellar/main/src/render/css/under-fold.inc.less",
-		"/home/bruno/Bureaublad/dev/stellar/main/src/render/css/background.inc.less",
-		"/home/bruno/Bureaublad/dev/stellar_prototype/http/prototype/styles.css",
-		"/home/bruno/Bureaublad/dev/stellar/main/package.json",
-		"/home/bruno/Bureaublad/crosshair/gulpfile.js",
-		"/home/bruno/Bureaublad/dev/stellar/main/src/render/css/normalize.inc.css",
-		"/home/bruno/Bureaublad/dev/stellar/main/out/dist/js/stellar.min.js"
+		"/home/bruno/Bureaublad/dev/stellar/main/src/render/css/under-fold.inc.less"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -568,6 +583,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"min-height",
 			"gd",
 			"mbstring",
 			"curl",
@@ -614,8 +630,38 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "docpad.coffee",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2517,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2186,
+								2186
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Better CoffeeScript/CoffeeScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 540.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],

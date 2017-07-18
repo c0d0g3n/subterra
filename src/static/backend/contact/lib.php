@@ -27,13 +27,14 @@ function check_captcha( $in ) {
 
 	$out = true;
 
-    $recaptcha = new \ReCaptcha\ReCaptcha( $recaptcha_secret );
+    $recaptcha = new \ReCaptcha\ReCaptcha( $recaptcha_secret, new \ReCaptcha\RequestMethod\CurlPost() );
     $response = $recaptcha->verify( $in );
     if ( !$response->isSuccess() ) {
         $errors = $response->getErrorCodes();
         $out = [
             'code'          => 'recaptcha_incorrect',
-            'user_message'  => 'De Recaptcha was incorrect, probeer a.u.b. opnieuw.'
+            'user_message'  => 'De Recaptcha was incorrect, probeer a.u.b. opnieuw.',
+            'errors'        => $errors
         ];
     }
 
@@ -404,12 +405,12 @@ function send_form() {
 
     // connection
     $mail_host->isSMTP();
-    $mail_host->Host = 'smtp.gmail.com';
+    $mail_host->Host = 'smtp-auth.mailprotect.be';
     $mail_host->SMTPAuth = true;
     $mail_host->Username = $smtp_user;
     $mail_host->Password = $smtp_pass;
     $mail_host->SMTPSecure = 'tls';
-    $mail_host->Port = 587;
+    $mail_host->Port = 2525;
 
     // mail meta
     $mail_host->setFrom( $filtered_values[ 'email' ], $filtered_values[ 'name' ] );
@@ -487,12 +488,12 @@ function send_form() {
 
     // connection
     $mail_respondent->isSMTP();
-    $mail_respondent->Host = 'smtp.gmail.com';
+    $mail_respondent->Host = 'smtp-auth.mailprotect.be';
     $mail_respondent->SMTPAuth = true;
     $mail_respondent->Username = $smtp_user;
     $mail_respondent->Password = $smtp_pass;
     $mail_respondent->SMTPSecure = 'tls';
-    $mail_respondent->Port = 587;
+    $mail_respondent->Port = 2525;
 
     // mail meta
     $mail_respondent->setFrom( $host_email, $host_email_name );

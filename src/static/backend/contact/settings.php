@@ -30,7 +30,7 @@ $accepted_fields = [
             ]
     ];
     
-$host_email = 'c0d0g3n@gmail.com';
+$host_email = 'info@subterra.vlaanderen';
 $host_email_name = 'Subterra Recording Studio'
 
 ?>

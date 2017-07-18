@@ -98,9 +98,9 @@
 			<footer id="page-footer">
 				<a id="scroll-to-top" href="#above-fold" title="Scroll back to top"><span class="fa fa-chevron-up" aria-hidden="true"></span></a>
 				<p class="copyright">
-					Copyright info
+					&copy; Subterra Recording Studio vzw
 				</p><p class="theme">
-					Stellar Theme by C0d0g3n
+					<!-- <a href="https://github.com/c0d0g3n">Theme by c0d0g3n</a> -->
 				</p>
 			</footer>
 		</div>
